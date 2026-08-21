@@ -1,0 +1,100 @@
+Script started on 2026-08-20 19:53:36-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="70" LINES="10"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lThu Aug 20 19:58:58 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o proces[27m[7ms[27m[7mflow[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lProcesso Pai PID = 15825 Processo pai espera pelo Filho PID = 15826
+Processo Filho PID = 15826 Pai possui PID = 15825
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# task listar /bin/ls  -l
+[?2004lCommand 'task' not found, but can be installed with:
+snap install task         # version v3.51.1, or
+apt  install taskwarrior  # version 2.6.2+dfsg-1
+See 'snap info task' for additional versions.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# task listar /bin/ls -l[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7P./processflow
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# task listar /bin/ls -l[K[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7P./processflow
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lsei la marcelo me odeia eu ach      
+sei la marcelo me odeia 
+Processo Pai PID = 15896 Processo pai espera pelo Filho PID = 15897
+Processo Filho PID = 15897 Pai possui PID = 15896
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflowgcc main.c -o processflow[3Ptask listar /bin/ls -lgcc main.c -o processflow
+[?2004l^[[A[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow[12P./processflowgcc main.c -o processflow[3Ptask listar /bin/ls -l[9P./processflowgcc main.c -o processflow[12P./processflow
+[?2004lprocessflow> marcelo quer minha mor              me odeia
+Processo Pai PID = 16011 Processo pai espera pelo Filho PID = 16012
+Processo Filho PID = 16012 Pai possui PID = 16011
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> 9 ^[[A^[[A^[[A            ^[[A^[[A^[[A^[[A^[[A^[[A                        .\ /processflow
+Processo Pai PID = 16011 Processo pai espera pelo Filho PID = 16013
+Processo Filho PID = 16013 Pai possui PID = 16011
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> ^[[A^[[A^[[A            ^[[2~     de  gcc^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[A^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B                                                                                                 
+Processo Pai PID = 16011 Processo pai espera pelo Filho PID = 16014
+Processo Filho PID = 16014 Pai possui PID = 16011
+^[[A^[[B
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> Processo Pai PID = 16011 Processo pai espera pelo Filho PID = 16015
+Processo Filho PID = 16015 Pai possui PID = 16011
+calma marcelo o meu po  teclao exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> do                             calma marcelo meu teclado bugou
+Processo Filho PID = 16016 Pai possui PID = 16011
+Processo Pai PID = 16011 Processo pai espera pelo Filho PID = 16016
+^[[A^[[A^[[B            o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> gcc   gcc     exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflowgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow[12P./processflow
+[?2004lprocessflow> marcelo me odeia
+token: marcelo
+token: me
+token: odeia
+Processo Pai PID = 16025 Processo pai espera pelo Filho PID = 16026
+Processo Filho PID = 16026 Pai possui PID = 16025
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> ^[[A^[[A        gcc -o        gcc mani  in.c -o processflow
+token: gcc
+token: main.c
+token: -o
+token: processflow
+Processo Pai PID = 16025 Processo pai espera pelo Filho PID = 16048
+Processo Filho PID = 16048 Pai possui PID = 16025
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> ^[[A    gcc - main,c    .c          exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c -o processdl[K[Kflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task listar /bin/ls -l -a
+token: task
+token: listar
+token: /bin/ls
+token: -l
+token: -a
+Processo Pai PID = 16054 Processo pai espera pelo Filho PID = 16055
+Processo Filho PID = 16055 Pai possui PID = 16054
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> gcc -o    main.c -o processflow
+token: gcc
+token: main.c
+token: -o
+token: processflow
+Processo Pai PID = 16054 Processo pai espera pelo Filho PID = 16058
+Processo Filho PID = 16058 Pai possui PID = 16054
+exit
+p go exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc -[Kmain.c - o[K[Ko processflow
+[?20
