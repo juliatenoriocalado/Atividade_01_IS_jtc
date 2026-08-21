@@ -97,4 +97,166 @@ exit
 p go exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc -[Kmain.c - o[K[Ko processflow
-[?20
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:59:29:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kchar (*)[30][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   59 |         printf("argumentos [01;35m[K%s[m[K", [32m[KComandoAtual.argumentos[m[K);
+      |                            [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                             [01;35m[K|[m[K               [32m[K|[m[K
+      |                             [01;35m[Kchar *[m[K          [32m[Kchar (*)[30][m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[Kc[K.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflw[Kow
+[?2004lprocessflow> task tes   listar /bin/ls -l -a
+token: task
+token: listar
+token: /bin/ls
+token: -l
+token: -a
+nome: listarprograma: /bin/lsquantidades de argumentos: 2Processo Pai PID = 16069 Processo pai espera pelo Filho PID = 16070
+nome: listarprograma: /bin/lsquantidades de argumentos: 2Processo Filho PID = 16070 Pai possui PID = 16069
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c - [Ko processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processdlow[K[K[K[Kflow
+[?2004lprocessflow> task listar /bin/ls -l -a
+token: task
+token: listar
+token: /bin/ls
+token: -l
+token: -a
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 2
+Processo Pai PID = 16077 Processo pai espera pelo Filho PID = 16078
+Processo Filho PID = 16078 Pai possui PID = 16077
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pro[K[K[Kgcc -o[K[Kmain.c =[K-o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:60:25:[m[K [01;31m[Kerror: [m[K‘[01m[KquantidadeDeArgumentos[m[K’ undeclared (first use in this function)
+   60 |         for (int i=0; i<[01;31m[KquantidadeDeArgumentos[m[K; i++){
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:60:25:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main,c[K[K.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processdl[K[Kflow
+[?2004lprocessflow> task listar /bin/ls -l -a
+token: task
+token: listar
+token: /bin/ls
+token: -l
+token: -a
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 2
+argumento(s)[0]argumento(s)[1]Processo Pai PID = 16086 Processo pai espera pelo Filho PID = 16087
+argumento(s)[0]argumento(s)[1]Processo Filho PID = 16087 Pai possui PID = 16086
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o pro[Kro[K[Kocessflpw[K[Kow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# /[K./processflow
+[?2004lprocessflow> task listar /bn in/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]
+Processo Pai PID = 16106 Processo pai espera pelo Filho PID = 16107
+Processo Filho PID = 16107 Pai possui PID = 16106
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> ^[[A^[[A        gcc -o  main.c -o processflow
+token: gcc
+token: main.c
+token: -o
+token: processflow
+nome: main.c
+programa: -o
+quantidades de argumentos: 1
+argumento(s)[0]
+Processo Pai PID = 16106 Processo pai espera pelo Filho PID = 16111
+Processo Filho PID = 16111 Pai possui PID = 16106
+exit
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ei[K[Kgcc min[K[Kainc[K.c -o processl[Kflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+Processo Pai PID = 16118 Processo pai espera pelo Filho PID = 16119
+Processo Filho PID = 16119 Pai possui PID = 16118
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# p[Kgcc ai[K[Kmain.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+Processo Pai PID = 16131 Processo pai espera pelo Filho PID = 16132
+Processo Filho PID = 16132 Pai possui PID = 16131
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc -o[K[Kmain.c -o processflw[Kow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+Processo Pai PID = 16215 Processo pai espera pelo Filho PID = 16216
+Processo Filho PID = 16216 Pai possui PID = 16215
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> i b exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gzz [K[K[Kcc -[Kmainc[K.c -o processsflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processfor[K[Klow
+[?2004lprocessflow> task listar /bin/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+Processo Pai PID = 16229 Processo pai espera pelo Filho PID = 16230
+Processo Filho PID = 16230 Pai possui PID = 16229
+o exec falhou.: No such file or directory
+Processo pai encerrou.
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainl[K.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./r[Kprocessflow
+[?2004lprocessflow> task listar /bin/ls = -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> process       run listar
+token: run
