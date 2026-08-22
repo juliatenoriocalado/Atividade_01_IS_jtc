@@ -1,34 +1,55 @@
 Script started on 2026-08-20 19:53:36-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="70" LINES="10"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lThu Aug 20 19:58:58 -03 2026
+[?2004l
+Thu Aug 20 19:58:58 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o proces[27m[7ms[27m[7mflow[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lProcesso Pai PID = 15825 Processo pai espera pelo Filho PID = 15826
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o proces[27m[7ms[27m[7mflow[27m[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004l
+Processo Pai PID = 15825 Processo pai espera pelo Filho PID = 15826
 Processo Filho PID = 15826 Pai possui PID = 15825
 o exec falhou.: No such file or directory
 Processo pai encerrou.
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# task listar /bin/ls  -l
-[?2004lCommand 'task' not found, but can be installed with:
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# task listar /bin/ls  
+-l
+[?2004l
+Command 'task' not found, but can be installed with:
 snap install task         # version v3.51.1, or
 apt  install taskwarrior  # version 2.6.2+dfsg-1
 See 'snap info task' for additional versions.
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# task listar /bin/ls -l[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7P./processflow
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# task listar /bin/ls -l[K[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7P./processflow
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004lsei la marcelo me odeia eu ach      
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# task listar /bin/ls -l[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7P./processflow
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc main.c -o processflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# task listar /bin/ls -l[K[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7P./processflow
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+sei la marcelo me odeia eu ach      
 sei la marcelo me odeia 
 Processo Pai PID = 15896 Processo pai espera pelo Filho PID = 15897
 Processo Filho PID = 15897 Pai possui PID = 15896
 o exec falhou.: No such file or directory
 Processo pai encerrou.
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflowgcc main.c -o processflow[3Ptask listar /bin/ls -lgcc main.c -o processflow
-[?2004l^[[A[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow[12P./processflowgcc main.c -o processflow[3Ptask listar /bin/ls -l[9P./processflowgcc main.c -o processflow[12P./processflow
-[?2004lprocessflow> marcelo quer minha mor              me odeia
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflowgcc main.c -o processflow[3Ptask listar /bin/ls -lgcc main.c -o processflow
+[?2004l
+^[[A[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow[12P./processflowgcc main.c -o processflow[3Ptask listar /bin/ls -l[9P./processflowgcc main.c -o processflow[12P./processflow
+[?2004l
+processflow> marcelo quer minha mor              me odeia
 Processo Pai PID = 16011 Processo pai espera pelo Filho PID = 16012
 Processo Filho PID = 16012 Pai possui PID = 16011
 o exec falhou.: No such file or directory
@@ -54,9 +75,15 @@ Processo Pai PID = 16011 Processo pai espera pelo Filho PID = 16016
 ^[[A^[[A^[[B            o exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> gcc   gcc     exit
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflowgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow[12P./processflow
-[?2004lprocessflow> marcelo me odeia
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflowgcc main.c -o processflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow[12P./processflow
+[?2004l
+processflow> marcelo me odeia
 token: marcelo
 token: me
 token: odeia
@@ -75,8 +102,10 @@ o exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> ^[[A    gcc - main,c    .c          exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c -o processdl[K[Kflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task listar /bin/ls -l -a
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task listar /bin/ls -l -a
 token: task
 token: listar
 token: /bin/ls
@@ -97,15 +126,18 @@ exit
 p go exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc -[Kmain.c - o[K[Ko processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:59:29:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kchar (*)[30][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
    59 |         printf("argumentos [01;35m[K%s[m[K", [32m[KComandoAtual.argumentos[m[K);
       |                            [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
       |                             [01;35m[K|[m[K               [32m[K|[m[K
       |                             [01;35m[Kchar *[m[K          [32m[Kchar (*)[30][m[K
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[Kc[K.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflw[Kow
-[?2004lprocessflow> task tes   listar /bin/ls -l -a
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflw[Kow
+[?2004l
+processflow> task tes   listar /bin/ls -l -a
 token: task
 token: listar
 token: /bin/ls
@@ -117,8 +149,10 @@ o exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c - [Ko processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processdlow[K[K[K[Kflow
-[?2004lprocessflow> task listar /bin/ls -l -a
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processdlow[K[K[K[Kflow
+[?2004l
+processflow> task listar /bin/ls -l -a
 token: task
 token: listar
 token: /bin/ls
@@ -133,14 +167,17 @@ o exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pro[K[K[Kgcc -o[K[Kmain.c =[K-o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:60:25:[m[K [01;31m[Kerror: [m[K‘[01m[KquantidadeDeArgumentos[m[K’ undeclared (first use in this function)
    60 |         for (int i=0; i<[01;31m[KquantidadeDeArgumentos[m[K; i++){
       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
 [01m[Kmain.c:60:25:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main,c[K[K.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processdl[K[Kflow
-[?2004lprocessflow> task listar /bin/ls -l -a
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processdl[K[Kflow
+[?2004l
+processflow> task listar /bin/ls -l -a
 token: task
 token: listar
 token: /bin/ls
@@ -155,8 +192,10 @@ o exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o pro[Kro[K[Kocessflpw[K[Kow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# /[K./processflow
-[?2004lprocessflow> task listar /bn in/ls -l
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# /[K./processflow
+[?2004l
+processflow> task listar /bn in/ls -l
 token: task
 token: listar
 token: /bin/ls
@@ -184,8 +223,10 @@ exit
 o exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ei[K[Kgcc min[K[Kainc[K.c -o processl[Kflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task listar /bin/ls -l
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task listar /bin/ls -l
 token: task
 token: listar
 token: /bin/ls
@@ -200,8 +241,10 @@ o exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# p[Kgcc ai[K[Kmain.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task listar /bin/ls -l
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task listar /bin/ls -l
 token: task
 token: listar
 token: /bin/ls
@@ -215,9 +258,15 @@ Processo Filho PID = 16132 Pai possui PID = 16131
 o exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> exit
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc -o[K[Kmain.c -o processflw[Kow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task listar /bin/ls -l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc -o[K[Kmain.c -o processflw[Kow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task listar /bin/ls -l
 token: task
 token: listar
 token: /bin/ls
@@ -232,8 +281,10 @@ o exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> i b exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gzz [K[K[Kcc -[Kmainc[K.c -o processsflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processfor[K[Klow
-[?2004lprocessflow> task listar /bin/ls -l
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processfor[K[Klow
+[?2004l
+processflow> task listar /bin/ls -l
 token: task
 token: listar
 token: /bin/ls
@@ -248,8 +299,10 @@ o exec falhou.: No such file or directory
 Processo pai encerrou.
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainl[K.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./r[Kprocessflow
-[?2004lprocessflow> task listar /bin/ls = -l
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./r[Kprocessflow
+[?2004l
+processflow> task listar /bin/ls = -l
 token: task
 token: listar
 token: /bin/ls
@@ -260,3 +313,280 @@ quantidades de argumentos: 1
 argumento(s)[0]: -l
 processflow> process       run listar
 token: run
+Script started on 2026-08-21 20:44:33-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="190" LINES="19"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mdate[27mdate
+[?2004lFri Aug 21 20:46:09 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mwhoami[27mwhoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwdwhoami[2Pdate./processflowgcc main.c -o processflow[12P./processflow
+[?2004lprocessflow> ^[[A^[[A^[[A^[[A^[[A^[[B                        task listar /bin/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> e task listar /bin/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> task listar /bin/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflowpwd[K./processflow
+[?2004lprocessflow> processflow> run sequential listar eco data
+token: processflow>
+token: run
+token: sequential
+token: listar
+token: eco
+token: data
+nome: run
+programa: 
+quantidades de argumentos: 0
+processflow> run
+token: run
+nome: run
+programa: 
+quantidades de argumentos: 0
+processflow> task listar /bin/ls -l
+run listartoken: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> ^Z
+[1]+  Stopped                 ./processflow
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# oi[K[Kexit
+[?2004lexit
+There are stopped jobs.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# exit./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+run listatoken: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> r
+token: run
+token: listar
+tarefa na posicao 0
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 633 Processo pai espera pelo Filho PID = 634
+Processo Filho PID = 634 Pai possui PID = 633
+total 104
+-rwxrwxrwx 1 root root     2 Aug 19 19:21 Makefile
+-rwxrwxrwx 1 root root    67 Aug 19 19:21 README.md
+-rwxrwxrwx 1 root root 16438 Aug 21 00:50 evidencias.log
+-rwxrwxrwx 1 root root 16384 Aug 19 21:24 exemplo0.c
+-rwxrwxrwx 1 root root 16392 Aug 19 22:44 exemplo1.c
+-rwxrwxrwx 1 root root  5407 Aug 21 00:34 main.c
+-rwxrwxrwx 1 root root 16648 Aug 21 00:35 processflow
+-rwxrwxrwx 1 root root 16648 Aug 21 00:21 processsflow
+Processo pai encerrou.
+processflow> ^[[A    gccc  -o  main,c  .c -o processdlp   flow
+token: gcc
+token: main.c
+token: -o
+token: processflow
+nome: main.c
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main,c[K[K.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:84:25:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
+   84 |                         [01;31m[KPosicaoEncontrada[m[K = -1;
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:84:25:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc [K[K[K[Kgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:91:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
+   91 |                 [01;31m[KPosicaoEncontrada[m[K = -1;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:91:17:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc min[K[Kain.c -o r[Kprocessflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:91:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
+   91 |                 [01;31m[KPosicaoEncontrada[m[K = -1;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:91:17:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gccm[K main,c[K[K.c -i[Ko processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:117:31:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
+  117 |             args[0] = tarefas[[01;31m[KPosicaoEncontrada[m[K].programa;
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:117:31:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:124:17:[m[K [01;31m[Kerror: [m[K‘[01m[KqualComandoQueEscolheram[m[K’ undeclared (first use in this function)
+  124 |             if ([01;31m[KqualComandoQueEscolheram[m[K == 1){
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:124:17:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kmain.c:125:48:[m[K [01;31m[Kerror: [m[K‘[01m[KComandoAtual[m[K’ undeclared (first use in this function)
+  125 |                 tarefas[quantidadeDeTarefas] = [01;31m[KComandoAtual[m[K;
+      |                                                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[Kmain.c:[m[K At top level:
+[01m[Kmain.c:184:5:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kreturn[m[K’
+  184 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[Kmain.c:185:1:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[K}[m[K’ token
+  185 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mchar *args[12];[27m[1Pchar *args[12][K[K[K[K[K[K[K[K[K[K[K[K[K[Kgcc main.c -o r[Kprocessflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> task eco /bin/echo teste
+task data /bin/datetoken: task
+token: eco
+token: /bin/echo
+token: teste
+nome: eco
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: teste
+processflow> run sequential listar eco data
+token: task
+token: data
+token: /bin/daterun
+token: sequential
+token: listar
+token: eco
+token: data
+nome: data
+programa: /bin/daterun
+quantidades de argumentos: 4
+argumento(s)[0]: sequential
+argumento(s)[1]: listar
+argumento(s)[2]: eco
+argumento(s)[3]: data
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main,[K[Kn.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> task eco /bin/echo teste
+token: task
+token: eco
+token: /bin/echo
+token: teste
+nome: eco
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: teste
+processflow> task data /bin/date
+token: task
+token: data
+token: /bin/date
+nome: data
+programa: /bin/date
+quantidades de argumentos: 0
+processflow> run listar
+token: run
+token: listar
+tarefa na posicao 0
+nome: listar
+programa: /bin/date
+quantidades de argumentos: 0
+Processo Pai PID = 1293 Processo pai espera pelo Filho PID = 1298
+Processo Filho PID = 1298 Pai possui PID = 1293
+run eco
+run data
+total 112
+-rwxrwxrwx 1 root root     2 Aug 19 19:21 Makefile
+-rwxrwxrwx 1 root root    67 Aug 19 19:21 README.md
+-rwxrwxrwx 1 root root 24630 Aug 21 23:26 evidencias.log
+-rwxrwxrwx 1 root root 16384 Aug 19 21:24 exemplo0.c
+-rwxrwxrwx 1 root root 16392 Aug 19 22:44 exemplo1.c
+-rwxrwxrwx 1 root root  7868 Aug 22 00:01 main.c
+-rwxrwxrwx 1 root root 16648 Aug 22 00:01 processflow
+-rwxrwxrwx 1 root root 16648 Aug 21 00:21 processsflow
+Processo pai encerrou.
+processflow> token: run
+token: eco
+tarefa na posicao 1
+nome: eco
+programa: /bin/date
+quantidades de argumentos: 0
+Processo Pai PID = 1293 Processo pai espera pelo Filho PID = 1299
+Processo Filho PID = 1299 Pai possui PID = 1293
+exir t
+teste
+Processo pai encerrou.
+processflow> token: run
+token: data
+tarefa na posicao 2
+nome: data
+programa: /bin/date
+quantidades de argumentos: 0
+Processo Pai PID = 1293 Processo pai espera pelo Filho PID = 1300
+Processo Filho PID = 1300 Pai possui PID = 1293
+Sat Aug 22 00:03:17 -03 2026
+Processo pai encerrou.
+processflow> [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# s[Kdate
+[?2004lSat Aug 22 00:03:22 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> task eco /bin/echo teste
+token: task
+token: eco
+token: /bin/echo
+token: teste
+nome: eco
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: teste
+processflow> task data /bin/date
+token: task
+token: data
+token: /bin/date
+nome: data
+progra
