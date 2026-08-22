@@ -88,7 +88,6 @@ int main(int argc, char *argv[]){
 
                 contadorDeEntradas++;
                 ponteiroEntradaSerQuebrada = strtok(NULL, " ");
-            
             }
 
         if (sequencial){
@@ -111,7 +110,7 @@ int main(int argc, char *argv[]){
                     if (pid > 0){
                         //Estamos no processo pai
                         printf("Processo Pai PID = %d Processo pai espera pelo Filho PID = %d\n", getpid(), pid);
-                        wait(NULL ); //Criar filho com a CS fork, o pai vai iniciar o código e quando chegar na CA wait ele vai esperar o filho pra continuar a execução
+                        wait(NULL);                        
                         printf("Processo pai encerrou.\n");
                     }
 
@@ -131,71 +130,121 @@ int main(int argc, char *argv[]){
 
                         perror("o exec falhou.");
                         exit(1); //encerra o processo filho
-  
-                }                        
-            }
-        }
-    }   
-        
-            int PosicaoEncontrada = -1; //nao encontrou    
-
-            if (qualComandoQueEscolheram == 1){
-                tarefas[quantidadeDeTarefas] = ComandoAtual;
-                quantidadeDeTarefas++;
-            }
-
-            if (qualComandoQueEscolheram == 2){
-                for (int i=0; i<quantidadeDeTarefas; i++){
-                    if (strcmp(tarefas[i].nome, ComandoAtual.nome) == 0){
-                    printf("tarefa na posicao %d\n", i);
-                    PosicaoEncontrada = i;
-                    }
                 }
             }
-        
-        printf("nome: %s\n", ComandoAtual.nome);
-        printf("programa: %s\n", ComandoAtual.programa);
-        printf("quantidades de argumentos: %d\n", ComandoAtual.quantidadeDeArgumentos);
-        for (int i=0; i< ComandoAtual.quantidadeDeArgumentos; i++){
-            printf("argumento(s)[%d]: %s\n", i, ComandoAtual.argumentos[i]);
+        }
+    }           
+                
+        if (paralelo){
+            int quantidadeFilhos = 0;
+            for (int i=0; i<runQuantidade; i++){
+                int PosicaoEncontrada = -1;
+                for (int j=0; j<quantidadeDeTarefas; j++){
+                    if (strcmp(tarefas[j].nome, nomesDoRun[i]) == 0){
+                        PosicaoEncontrada = j;
+                    }
+                }
+
+        if (PosicaoEncontrada != -1){
+
+            pid_t pid = fork();
+            if (pid < 0){
+                perror("Fork falhou.");
+                exit(1); //Encerrar processo atual
+            }
+
+            if (pid > 0){
+                //Estamos no processo pai
+                quantidadeFilhos++;
+                printf("Processo Pai PID = %d Processo pai espera pelo Filho PID = %d\n", getpid(), pid);
+                wait(NULL);
+                printf("Processo pai encerrou.\n");
+            }
+
+            else { //Senão estou no processo filho
+                printf("Processo Filho PID = %d Pai possui PID = %d\n", getpid(), getppid()); //getppid conseguir PID do processo pai
+                sleep(5); //filho dormindo
+                //com um l: argumentos separados com virgula (passa diretamente), com v: vetor de strings (se cria, voce gera), p: permite procurar o executável nos diretórios configurados na variável PATH
+                char *args[12];
+                args[0] = tarefas[PosicaoEncontrada].programa;
+
+                for (int i=0; i < tarefas[PosicaoEncontrada].quantidadeDeArgumentos; i++){
+                    args[i + 1] = tarefas[PosicaoEncontrada].argumentos[i];                                   
+                }
+
+                args[tarefas[PosicaoEncontrada].quantidadeDeArgumentos + 1] = NULL;
+                execvp(args[0], args); //execvp diz : execute ./TestandoExec usando esse vetor de argumentos
+
+                perror("o exec falhou.");
+                exit(1); //encerra o processo filho                    
+                }
+            }
         }
 
-        if (qualComandoQueEscolheram == 2 && PosicaoEncontrada != -1){       
-                pid_t pid = fork(); //O retorno da função fork corresponde ao comportamento ocorrido 
+        for (int i=0; i<quantidadeFilhos; i++){
+            wait(NULL);
+        }
+    }  
+        int PosicaoEncontrada = -1; //nao encontrou    
 
-                if (pid < 0){
-                    perror("Fork falhou.");
-                    exit(1); //Encerrar processo atual
-                } 
-                
-                if (pid > 0){
-                    //Estamos no processo pai
-                    printf("Processo Pai PID = %d Processo pai espera pelo Filho PID = %d\n", getpid(), pid);
-                    wait(NULL ); //Criar filho com a CS fork, o pai vai iniciar o código e quando chegar na CA wait ele vai esperar o filho pra continuar a execução
-                    printf("Processo pai encerrou.\n");
-                }else{ //Senão estou no processo filho
+        if (qualComandoQueEscolheram == 1){
+            tarefas[quantidadeDeTarefas] = ComandoAtual;
+            quantidadeDeTarefas++;
+        }
 
-                    printf("Processo Filho PID = %d Pai possui PID = %d\n", getpid(), getppid()); //getppid conseguir PID do processo pai
-                    sleep(5); //filho dormindo
-
-                    //com um l: argumentos separados com virgula (passa diretamente), com v: vetor de strings (se cria, voce gera), p: permite procurar o executável nos diretórios configurados na variável PATH
-                    char *args[12];
-                    args[0] = tarefas[PosicaoEncontrada].programa;
-
-                    for (int i=0; i < tarefas[PosicaoEncontrada].quantidadeDeArgumentos; i++){
-                        args[i + 1] = tarefas[PosicaoEncontrada].argumentos[i];                                   
-                    }
-
-                    args[tarefas[PosicaoEncontrada].quantidadeDeArgumentos + 1] = NULL;
-                    execvp(args[0], args); //execvp diz : execute ./TestandoExec usando esse vetor de argumentos
-
-                    perror("o exec falhou.");
-                    exit(1); //encerra o processo filho
-                
-                    //exec vai (substituir o processo filho pelo processo chamado exec) -> se o exec funcionar, tudo o que estiver depois do filho nçao será executado 
+        if (qualComandoQueEscolheram == 2){
+            for (int i=0; i<quantidadeDeTarefas; i++){
+                if (strcmp(tarefas[i].nome, ComandoAtual.nome) == 0){
+                printf("tarefa na posicao %d\n", i);
+                PosicaoEncontrada = i;
+                }
             }
-        }   
+        }
+    
+    printf("nome: %s\n", ComandoAtual.nome);
+    printf("programa: %s\n", ComandoAtual.programa);
+    printf("quantidades de argumentos: %d\n", ComandoAtual.quantidadeDeArgumentos);
+    for (int i=0; i< ComandoAtual.quantidadeDeArgumentos; i++){
+        printf("argumento(s)[%d]: %s\n", i, ComandoAtual.argumentos[i]);
     }
-    }   
+
+    if (qualComandoQueEscolheram == 2 && PosicaoEncontrada != -1){       
+            pid_t pid = fork(); //O retorno da função fork corresponde ao comportamento ocorrido 
+
+            if (pid < 0){
+                perror("Fork falhou.");
+                exit(1); //Encerrar processo atual
+            } 
+            
+            if (pid > 0){
+                //Estamos no processo pai
+                printf("Processo Pai PID = %d Processo pai espera pelo Filho PID = %d\n", getpid(), pid);
+            }else{ //Senão estou no processo filho
+
+                printf("Processo Filho PID = %d Pai possui PID = %d\n", getpid(), getppid()); //getppid conseguir PID do processo pai
+                sleep(5); //filho dormindo
+
+                //com um l: argumentos separados com virgula (passa diretamente), com v: vetor de strings (se cria, voce gera), p: permite procurar o executável nos diretórios configurados na variável PATH
+                char *args[12];
+                args[0] = tarefas[PosicaoEncontrada].programa;
+
+                for (int i=0; i < tarefas[PosicaoEncontrada].quantidadeDeArgumentos; i++){
+                    args[i + 1] = tarefas[PosicaoEncontrada].argumentos[i];                                   
+                }
+
+                args[tarefas[PosicaoEncontrada].quantidadeDeArgumentos + 1] = NULL;
+                execvp(args[0], args); //execvp diz : execute ./TestandoExec usando esse vetor de argumentos
+
+                perror("o exec falhou.");
+                exit(1); //encerra o processo filho
+            
+                //exec vai (substituir o processo filho pelo processo chamado exec) -> se o exec funcionar, tudo o que estiver depois do filho nçao será executado 
+            }
+    }  
+
+    }  
+
+    }
+     
     return 0;
 }

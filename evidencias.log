@@ -589,4 +589,207 @@ token: task
 token: data
 token: /bin/date
 nome: data
-progra
+prograScript started on 2026-08-22 14:03:01-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="92" LINES="18"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSat Aug 22 14:03:12 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main,c[K[K.c -i[Kp[Ko processdlo[K[K[Kflow
+[?2004l[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
+   95 |         [01;31m[Kif[m[K (sequencial){
+      |         [01;31m[K^~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+[?2004l[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
+   95 |         [01;31m[Kif[m[K (sequencial){
+      |         [01;31m[K^~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:179:13:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KPosicaoEncontrada[m[K’
+  179 |         int [01;31m[KPosicaoEncontrada[m[K = -1; //nao encontrou
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:95:21:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[KPosicaoEncontrada[m[K’ with type ‘[01m[Kint[m[K’
+   95 |                 int [01;36m[KPosicaoEncontrada[m[K = -1;
+      |                     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:237:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  237 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[Kmain.c:237:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+[01m[Kmain.c:237:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  236 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+[01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+[01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:238:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  238 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[Kmain.c:238:1:[m[K [01;31mScript started on 2026-08-22 14:03:05-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="92" LINES="18"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSat Aug 22 14:03:12 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main,c[K[K.c -i[Kp[Ko processdlo[K[K[Kflow
+[?2004l[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
+   95 |         [01;31m[Kif[m[K (sequencial){
+      |         [01;31m[K^~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+[?2004l[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
+   95 |         [01;31m[Kif[m[K (sequencial){
+      |         [01;31m[K^~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:179:13:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KPosicaoEncontrada[m[K’
+  179 |         int [01;31m[KPosicaoEncontrada[m[K = -1; //nao encontrou
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:95:21:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[KPosicaoEncontrada[m[K’ with type ‘[01m[Kint[m[K’
+   95 |                 int [01;36m[KPosicaoEncontrada[m[K = -1;
+      |                     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:237:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  237 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[Kmain.c:237:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+[01m[Kmain.c:237:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  236 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+[01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+[01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:238:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  238 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[Kmain.c:238:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o proces[Kerror: [m[Kexpected declaration or statement at end of input
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:239:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  239 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# v[K[7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:239:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  239 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# main[K[K[K[Kgcc nain[K[K[K[Kmainx[K.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# .;[K/processdflo[K[K[K[Kflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run parallel um dois tres
+token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1091 Processo pai espera pelo Filho PID = 1100
+Processo Filho PID = 1100 Pai possui PID = 1091
+UM
+Processo pai encerrou.
+Processo Pai PID = 1091 Processo pai espera pelo Filho PID = 1101
+Processo Filho PID = 1101 Pai possui PID = 1091
+DOIS
+Processo pai encerrou.
+Processo Pai PID = 1091 Processo pai espera pelo Filho PID = 1102
+Processo Filho PID = 1102 Pai possui PID = 1091
+TRES
+Processo pai encerrou.
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pr[K[Kmaini[K[K[K[K[Kgcc mainl.c[K[K[K.c -o processdfl[K[K[Kflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run parallel um dois tres
+token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1126 Processo pai espera pelo Filho PID = 1142
+Processo pai encerrou.
+Processo Filho PID = 1142 Pai possui PID = 1126
+Processo Pai PID = 1126 Processo pai espera pelo Filho PID = 1143
+Processo pai encerrou.
+Processo Pai PID = 1126 Processo pai espera pelo Filho PID = 1144
+Processo pai encerrou.
+nome: parallel
+programa: /bin/echo
+Processo Filho PID = 1143 Pai possui PID = 1126
+quantidades de argumentos: 0
+processflow> Processo Filho PID = 1144 Pai possui PID = 1126
+DOIS
+UM
+TRES
+exigt
+token: exigt
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/ju
