@@ -792,4 +792,892 @@ nome: parallel
 programa: /bin/echo
 quantidades de argumentos: 0
 processflow> exit
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/ju
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/jusflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:239:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  239 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# v[K[7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:239:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  239 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# main[K[K[K[Kgcc nain[K[K[K[Kmainx[K.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# .;[K/processdflo[K[K[K[Kflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run parallel um dois tres
+token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1091 Processo pai espera pelo Filho PID = 1100
+Processo Filho PID = 1100 Pai possui PID = 1091
+UM
+Processo pai encerrou.
+Processo Pai PID = 1091 Processo pai espera pelo Filho PID = 1101
+Processo Filho PID = 1101 Pai possui PID = 1091
+DOIS
+Processo pai encerrou.
+Processo Pai PID = 1091 Processo pai espera pelo Filho PID = 1102
+Processo Filho PID = 1102 Pai possui PID = 1091
+TRES
+Processo pai encerrou.
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pr[K[Kmaini[K[K[K[K[Kgcc mainl.c[K[K[K.c -o processdfl[K[K[Kflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run parallel um dois tres
+token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1126 Processo pai espera pelo Filho PID = 1142
+Processo pai encerrou.
+Processo Filho PID = 1142 Pai possui PID = 1126
+Processo Pai PID = 1126 Processo pai espera pelo Filho PID = 1143
+Processo pai encerrou.
+Processo Pai PID = 1126 Processo pai espera pelo Filho PID = 1144
+Processo pai encerrou.
+nome: parallel
+programa: /bin/echo
+Processo Filho PID = 1143 Pai possui PID = 1126
+quantidades de argumentos: 0
+processflow> Processo Filho PID = 1144 Pai possui PID = 1126
+DOIS
+UM
+TRES
+exigt
+token: exigt
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julilia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run parallel um dois tres
+token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1349 Processo pai espera pelo Filho PID = 1353
+Processo pai encerrou.
+Processo Filho PID = 1353 Pai possui PID = 1349
+Processo Pai PID = 1349 Processo pai espera pelo Filho PID = 1354
+Processo pai encerrou.
+Processo Filho PID = 1354 Pai possui PID = 1349
+Processo Pai PID = 1349 Processo pai espera pelo Filho PID = 1355
+Processo Filho PID = 1355 Pai possui PID = 1349
+Processo pai encerrou.
+DOIS
+TRES
+UM
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> exig t
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pro[K[K[Kgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# run[K[K[K./processdflo[K[K[K[Kflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run sequential um dois tres
+token: run
+token: sequential
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1395
+Processo Filho PID = 1395 Pai possui PID = 1390
+UM
+Processo pai encerrou.
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1396
+Processo Filho PID = 1396 Pai possui PID = 1390
+DOIS
+Processo pai encerrou.
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1397
+Processo Filho PID = 1397 Pai possui PID = 1390
+TRES
+Processo pai encerrou.
+nome: sequential
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> run parallel um dois tres
+token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1400
+Processo pai encerrou.
+Processo Filho PID = 1400 Pai possui PID = 1390
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1401
+Processo pai encerrou.
+Processo Filho PID = 1401 Pai possui PID = 1390
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1402
+Processo pai encerrou.
+Processo Filho PID = 1402 Pai possui PID = 1390
+TRES
+DOIS
+UM
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> gcc main.c -o processflow
+token: gcc
+token: main.c
+token: -o
+token: processflow
+nome: main.c
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> we  exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividadea/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run parallel um dois tres
+token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1349 Processo pai espera pelo Filho PID = 1353
+Processo pai encerrou.
+Processo Filho PID = 1353 Pai possui PID = 1349
+Processo Pai PID = 1349 Processo pai espera pelo Filho PID = 1354
+Processo pai encerrou.
+Processo Filho PID = 1354 Pai possui PID = 1349
+Processo Pai PID = 1349 Processo pai espera pelo Filho PID = 1355
+Processo Filho PID = 1355 Pai possui PID = 1349
+Processo pai encerrou.
+DOIS
+TRES
+UM
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> exig t
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pro[K[K[Kgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# run[K[K[K./processdflo[K[K[K[Kflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run sequential um dois tres
+token: run
+token: sequential
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1395
+Processo Filho PID = 1395 Pai possui PID = 1390
+UM
+Processo pai encerrou.
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1396
+Processo Filho PID = 1396 Pai possui PID = 1390
+DOIS
+Processo pai encerrou.
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1397
+Processo Filho PID = 1397 Pai possui PID = 1390
+TRES
+Processo pai encerrou.
+nome: sequential
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> run parallel um dois tres
+token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1400
+Processo pai encerrou.
+Processo Filho PID = 1400 Pai possui PID = 1390
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1401
+Processo pai encerrou.
+Processo Filho PID = 1401 Pai possui PID = 1390
+Processo Pai PID = 1390 Processo pai espera pelo Filho PID = 1402
+Processo pai encerrou.
+Processo Filho PID = 1402 Pai possui PID = 1390
+TRES
+DOIS
+UM
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> gcc main.c -o processflow
+token: gcc
+token: main.c
+token: -o
+token: processflow
+nome: main.c
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> we  exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> run um[_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> run um[ 
+token: run
+token: um
+tarefa na posicao 0
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 0
+Processo Pai PID = 1441 Processo pai espera pelo Filho PID = 1442
+Processo Filho PID = 1442 Pai possui PID = 1441
+UM
+processflow> da  exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSat Aug 22 16:27:09 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 00:26:46 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c processflow[K[K[K[K[K[K[K[K[K[K[Kó proce[K[K[K[K[K[K[K-op[K processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:278:21:[m[K [01;31m[Kerror: [m[K‘[01m[KquantidadeFilhos[m[K’ undeclared (first use in this function)
+  278 |                     [01;31m[KquantidadeFilhos[m[K++;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:278:21:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run um
+token: run
+token: um
+tarefa na posicao 0
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 0
+Processo Filho PID = 2114 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2114
+UM
+processflow> run se 
+token: run
+token: um
+tarefa na posicao 0
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 0
+Processo Pai PID = 1441 Processo pai espera pelo Filho PID = 1442
+Processo Filho PID = 1442 Pai possui PID = 1441
+UM
+processflow> da  exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSat Aug 22 16:27:09 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 00:26:46 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c processflow[K[K[K[K[K[K[K[K[K[K[Kó proce[K[K[K[K[K[K[K-op[K processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:278:21:[m[K [01;31m[Kerror: [m[K‘[01m[KquantidadeFilhos[m[K’ undeclared (first use in this function)
+  278 |                     [01;31m[KquantidadeFilhos[m[K++;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:278:21:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run um
+token: run
+token: um
+tarefa na posicao 0
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 0
+Processo Filho PID = 2114 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2114
+UM
+processflow> run sequential um dois tres
+token: run
+token: sequential
+token: um
+token: dois
+token: tres
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2117
+Processo Filho PID = 2117 Pai possui PID = 2105
+run parallel um dois tresUM
+Processo pai encerrou.Script started on 2026-08-23 00:26:41-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="92" LINES="5"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 00:26:46 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c processflow[K[K[K[K[K[K[K[K[K[K[Kó proce[K[K[K[K[K[K[K-op[K processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:278:21:[m[K [01;31m[Kerror: [m[K‘[01m[KquantidadeFilhos[m[K’ undeclared (first use in this function)
+  278 |                     [01;31m[KquantidadeFilhos[m[K++;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:278:21:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run um
+token: run
+token: um
+tarefa na posicao 0
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 0
+Processo Filho PID = 2114 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2114
+UM
+processflow> run sequential um dois tres
+token: run
+token: sequential
+token: um
+token: dois
+token: tres
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2117
+Processo Filho PID = 2117 Pai possui PID = 2105
+run parallel um dois tresUM
+Processo pai encerrou.
+Processo Filho PID = 2118 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2118
+
+DOIS
+Processo pai encerrou.
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2121
+Processo Filho PID = 2121 Pai possui PID = 2105
+TRES
+Processo pai encerrou.
+nome: sequential
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2122
+Processo pai encerrou.
+Processo Filho PID = 2122 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2123
+Processo pai encerrou.
+Processo Filho PID = 2123 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2124
+Processo pai encerrou.
+Processo Filho PID = 2124 Pai possui PID = 2105
+UM
+TRES
+DOIS
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> run pie pe um dois tres
+token: run
+token: pipe
+token: um
+token: dois
+token: tres
+nome: pipe
+programa: /bin/echo
+quantidades de argumentos: 0
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2128
+Processo pai encerrou.
+Processo Filho PID = 2128 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2129
+Processo pai encerrou.
+Processo Filho PID = 2129 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai esperaquential um dois tres
+token: run
+token: sequential
+token: um
+token: dois
+token: tres
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2117
+Processo Filho PID = 2117 Pai possui PID = 2105
+run parallel um dois tresUM
+Processo pai encerrou.
+Processo Filho PID = 2118 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2118
+
+DOIS
+Processo pai encerrou.
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2121
+Processo Filho PID = 2121 Pai possui PID = 2105
+TRES
+Processo pai encerrou.
+nome: sequential
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2122
+Processo pai encerrou.
+Processo Filho PID = 2122 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2123
+Processo pai encerrou.
+Processo Filho PID = 2123 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2124
+Processo pai encerrou.
+Processo Filho PID = 2124 Pai possui PID = 2105
+UM
+TRES
+DOIS
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> run pie pe um dois tres
+token: run
+token: pipe
+token: um
+token: dois
+token: tres
+nome: pipe
+programa: /bin/echo
+quantidades de argumentos: 0
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2128
+Processo pai encerrou.
+Processo Filho PID = 2128 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2129
+Processo pai encerrou.
+Processo Filho PID = 2129 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2130
+Processo pai encerrou.
+Processo Filho PID = 2130 Pai possui PID = 2105
+TRES
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c ó pro[K[K[K[K[K-o peo[Kr[K[Krocessflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processl[Kfl[Klow
+[?2004lprocessflow> task listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> task contar /usr/bin/wc -l
+token: task
+token: contar
+token: /usr/bin/wc
+token: -l
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> run pipe listar contar
+token: run
+token: pipe
+token: listar
+token: contar
+nome: pipe
+programa: /usr/bin/wc
+quantidades de argumentos: 0
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2180
+Processo pai encerrou.
+Processo Filho PID = 2180 Pai possui PID = 2175
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2181
+Processo pai encerrou.
+Processo Filho PID = 2181 Pai possui PID = 2175
+8
+processflow> task ordenar /usr/bin/sort
+token: task
+token: ordenar
+token: /usr/bin/sort
+nome: ordenar
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+processflow> run pipe listar ordenar contar
+token: run
+token: pipe
+token: listar
+token: ordenar
+token: contar
+nome: pipe
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2219
+Processo pai encerrou.
+Processo Filho PID = 2219 Pai possui PID = 2175
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2220
+Processo pai encerrou.
+Processo Filho PID = 2220 Pai possui PID = 2175
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2221
+Processo pai encerrou.
+Processo Filho PID =
+Processo Filho PID = 2118 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2118
+
+DOIS
+Processo pai encerrou.
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2121
+Processo Filho PID = 2121 Pai possui PID = 2105
+TRES
+Processo pai encerrou.
+nome: sequential
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2122
+Processo pai encerrou.
+Processo Filho PID = 2122 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2123
+Processo pai encerrou.
+Processo Filho PID = 2123 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2124
+Processo pai encerrou.
+Processo Filho PID = 2124 Pai possui PID = 2105
+UM
+TRES
+DOIS
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> run pie pe um dois tres
+token: run
+token: pipe
+token: um
+token: dois
+token: tres
+nome: pipe
+programa: /bin/echo
+quantidades de argumentos: 0
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2128
+Processo pai encerrou.
+Processo Filho PID = 2128 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2129
+Processo pai encerrou.
+Processo Filho PID = 2129 Pai possui PID = 2105
+Processo Pai PID = 2105 Processo pai espera pelo Filho PID = 2130
+Processo pai encerrou.
+Processo Filho PID = 2130 Pai possui PID = 2105
+TRES
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c ó pro[K[K[K[K[K-o peo[Kr[K[Krocessflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processl[Kfl[Klow
+[?2004lprocessflow> task listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> task contar /usr/bin/wc -l
+token: task
+token: contar
+token: /usr/bin/wc
+token: -l
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> run pipe listar contar
+token: run
+token: pipe
+token: listar
+token: contar
+nome: pipe
+programa: /usr/bin/wc
+quantidades de argumentos: 0
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2180
+Processo pai encerrou.
+Processo Filho PID = 2180 Pai possui PID = 2175
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2181
+Processo pai encerrou.
+Processo Filho PID = 2181 Pai possui PID = 2175
+8
+processflow> task ordenar /usr/bin/sort
+token: task
+token: ordenar
+token: /usr/bin/sort
+nome: ordenar
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+processflow> run pipe listar ordenar contar
+token: run
+token: pipe
+token: listar
+token: ordenar
+token: contar
+nome: pipe
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2219
+Processo pai encerrou.
+Processo Filho PID = 2219 Pai possui PID = 2175
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2220
+Processo pai encerrou.
+Processo Filho PID = 2220 Pai possui PID = 2175
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2221
+Processo pai encerrou.
+Processo Filho PID = 2221 Pai possui PID = 2175
+8
+processflow> date
+token: date
+nome: pipe
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+processflow> eix  xit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Ativi
