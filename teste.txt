@@ -1,0 +1,4 @@
+banana
+maçã
+uva
+pera

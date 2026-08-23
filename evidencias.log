@@ -1680,4 +1680,258 @@ nome: pipe
 programa: /usr/bin/sort
 quantidades de argumentos: 0
 processflow> eix  xit
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Ativi
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Ativi pelo Filho PID = 2130
+Processo pai encerrou.
+Processo Filho PID = 2130 Pai possui PID = 2105
+TRES
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c ó pro[K[K[K[K[K-o peo[Kr[K[Krocessflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processl[Kfl[Klow
+[?2004lprocessflow> task listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> task contar /usr/bin/wc -l
+token: task
+token: contar
+token: /usr/bin/wc
+token: -l
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> run pipe listar contar
+token: run
+token: pipe
+token: listar
+token: contar
+nome: pipe
+programa: /usr/bin/wc
+quantidades de argumentos: 0
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2180
+Processo pai encerrou.
+Processo Filho PID = 2180 Pai possui PID = 2175
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2181
+Processo pai encerrou.
+Processo Filho PID = 2181 Pai possui PID = 2175
+8
+processflow> task ordenar /usr/bin/sort
+token: task
+token: ordenar
+token: /usr/bin/sort
+nome: ordenar
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+processflow> run pipe listar ordenar contar
+token: run
+token: pipe
+token: listar
+token: ordenar
+token: contar
+nome: pipe
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2219
+Processo pai encerrou.
+Processo Filho PID = 2219 Pai possui PID = 2175
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2220
+Processo pai encerrou.
+Processo Filho PID = 2220 Pai possui PID = 2175
+Processo Pai PID = 2175 Processo pai espera pelo Filho PID = 2221
+Processo pai encerrou.
+Processo Filho PID = 2221 Pai possui PID = 2175
+8
+processflow> date
+token: date
+nome: pipe
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+processflow> eix  xit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 01:09:25 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> task ordenar /usr/bin/sort
+token: task
+token: ordenar
+token: /usr/bin/sort
+nome: ordenar
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+processflow> task contar /usr/bin/wc -l
+token: task
+token: contar
+token: /usr/bin/wc
+token: -l
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> run pipe listar ordenar contar
+token: run
+token: pipe
+token: listar
+token: ordenar
+token: contar
+nome: pipe
+programa: /usr/bin/wc
+quantidades de argumentos: 0
+Processo Pai PID = 2389 Processo pai espera pelo Filho PID = 2392
+Processo pai encerrou.
+Processo Filho PID = 2392 Pai possui PID = 2389
+Processo Pai PID = 2389 Processo pai espera pelo Filho PID = 2393
+Processo pai encerrou.
+Processo Filho PID = 2393 Pai possui PID = 2389
+Processo Pai PID = 2389 Processo pai espera peloScript started on 2026-08-23 17:22:57-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="92" LINES="9"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 17:23:02 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc -[Kmainc.[K[K.c -o poc[K[Krocessflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:44:13:[m[K [01;31m[Kerror: [m[K‘[01m[KModoAppend[m[K’ undeclared (first use in this function)
+   44 |             [01;31m[KModoAppend[m[K = 0;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[Kmain.c:44:13:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kmain.c:45:13:[m[K [01;31m[Kerror: [m[K‘[01m[KModoInput[m[K’ undeclared (first use in this function)
+   45 |             [01;31m[KModoInput[m[K = 0;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[Kmain.c:46:13:[m[K [01;31m[Kerror: [m[K‘[01m[KModoOutput[m[K’ undeclared (first use in this function)
+   46 |             [01;31m[KModoOutput[m[K = 0;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[Kmain.c:382:21:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kwait[m[K’
+  382 |                     [01;31m[Kwait[m[K();
+      |                     [01;31m[K^~~~[m[K
+In file included from [01m[Kmain.c:5[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/sys/wait.h:83:16:[m[K [01;36m[Knote: [m[Kdeclared here
+   83 | extern __pid_t [01;36m[Kwait[m[K (int *__stat_loc);
+      |                [01;36m[K^~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc a[Kmain.c -o procesf[Ksflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:44:13:[m[K [01;31m[Kerror: [m[K‘[01m[KModoAppend[m[K’ undeclared (first use in this function)
+   44 |             [01;31m[KModoAppend[m[K = 0;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[Kmain.c:44:13:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kmain.c:45:13:[m[K [01;31m[Kerror: [m[K‘[01m[KModoInput[m[K’ undeclared (first use in this function)
+   45 |             [01;31m[KModoInput[m[K = 0;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[Kmain.c:46:13:[m[K [01;31m[Kerror: [m[K‘[01m[KModoOutput[m[K’ undeclared (first use in this function)
+   46 |             [01;31m[KModoOutput[m[K = 0;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> gcc man inc.  .c -o processflow
+token: gcc
+token: main.c
+token: -o
+token: processflow
+nome: main.c
+programa: 
+quantidades de argumentos: 0
+processflow> main    exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc pr[K[Kmain.c -o processl[Kflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> printf "banana\nmaçã\nuva\npera\n" > teste.txt
+token: printf
+token: "banana\nmaçã\nuva\npera\n"
+token: >
+token: teste.txt
+nome: "banana\nmaçã\nuva\npera\n"
+programa: 
+quantidades de argumentos: 0
+processflow> cat teste.txt             exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mprintf "banana\nmaçã\nuva\npera\n" > teste[27m[7m.[27m[7mtxt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# printf "banana\nmaçã\nuva\npera\n" > teste.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat teste.txt[27mcat teste.txt
+[?2004lbanana
+maçã
+uva
+pera
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task contar /usr/bin/wc -l
+token: task
+token: contar
+token: /usr/bin/wc
+token: -l
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> input contar teste.txt
+token: input
+token: contar
+token: teste.txt
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 0
+Processo Pai PID = 1611 Processo pai espera pelo Filho PID = 1612
+Processo Filho PID = 1612 Pai possui PID = 1611
+4
+Processo pai encerrou.
+processflow> p gcc     exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# proce[K[K[K[K[Kgcc mainm[K.c - p[K[Ko processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:449:59:[m[K [01;31m[Kerror: [m[K‘[01m[KO_RSWR[m[K’ undeclared (first use in this function); did you mean ‘[01m[KO_RDWR[m[K’?
+  449 |                 int ArquivoSimOuNao = open(nomeDoArquivo, [01;31m[KO_RSWR[m[K); //Esse RDONLY serve somente p ler e escrever substituindo o conteúdo (tipo write)
+      |                                                           [01;31m[K^~~~~~[m[K
+      |                                                           [32m[KO_RDWR[m[K
+[01m[Kmain.c:449:59:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kmain.c:[m[K At top level:
+[01m[Kmain.c:483:5:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kreturn[m[K’
+  483 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[Kmain.c:484:1:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[K}[m[K’ token
+  484 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# process fl[K[K[K[K[K[K[K[K[K[Kmai=[K[K[K[Kgcc main.c -o poc[K[Krocessflow
+[?2004l[01m[Kmain.c:483:5:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kreturn[m[K’
+  483 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[Kmain.c:484:1:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[K}[m[K’ token
+  484 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mzi[K[Kain.c ó pr[K[K[K[K-o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> output listar resultado.txt
+token: output
+token: listar
+token: resultado.txt
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1626 Processo pai espera pelo Filho PID = 1627
+Processo pai encerrou.
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat resultado.txt[27mcat resultado.txt
+[?2004lMakefile
+README.md
+evidencias.log
+exemplo0.c
+exemplo1.c
+main.c
+processflow
+processsflow
+resultado.txt
+teste.txt
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# exir[Kt
+[?2004lexit
+
+Script done on 2026-08-23 17:57:07-03:00 [COMMAND_EXIT_CODE="0"]

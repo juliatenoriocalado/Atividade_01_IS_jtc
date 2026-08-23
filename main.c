@@ -4,6 +4,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <string.h>
+#include <fcntl.h>
 
 typedef struct Comando {
     char nome[30];
@@ -22,6 +23,10 @@ int main(int argc, char *argv[]){
     int runQuantidade = 0;
     char nomesDoRun[20][30];
     int modoPipe = 0;
+    char nomeDoArquivo[30];
+    int ModoAppend = 0;
+    int ModoOutput = 0;
+    int ModoInput = 0;
 
     while (achouOuNao == 0){
 
@@ -39,6 +44,9 @@ int main(int argc, char *argv[]){
             sequencial = 0;
             paralelo = 0;
             runQuantidade = 0;
+            ModoAppend = 0;
+            ModoInput = 0;
+            ModoOutput = 0;
 
             int contadorDeEntradas = 0;
 
@@ -46,6 +54,9 @@ int main(int argc, char *argv[]){
             ComandoAtual.quantidadeDeArgumentos = 0;
             char *ponteiroEntradaSerQuebrada;
             ponteiroEntradaSerQuebrada = strtok(linhaDeComandoEscrita, " "); //aspa dupla pq lê string
+            int ModoOutput = 0;
+            int ModoInput = 0;
+            int ModoAppend = 0;
             
             int qualComandoQueEscolheram = 0;
 
@@ -61,6 +72,19 @@ int main(int argc, char *argv[]){
                     if (strcmp(ponteiroEntradaSerQuebrada, "run") == 0){
                         qualComandoQueEscolheram = 2;
                     }
+
+                    if (strcmp(ponteiroEntradaSerQuebrada, "input") == 0){
+                        ModoInput = 1;
+                    }
+
+                    if (strcmp(ponteiroEntradaSerQuebrada, "output") == 0){
+                        ModoOutput = 1;
+                    }
+
+                    if (strcmp(ponteiroEntradaSerQuebrada, "append") == 0){
+                        ModoAppend = 1;
+                    }
+
                 }
 
                 if (contadorDeEntradas == 1){
@@ -73,6 +97,19 @@ int main(int argc, char *argv[]){
                         modoPipe = 1;
                     }
 
+                }
+
+                if (contadorDeEntradas == 2 && ModoAppend == 1){
+                    strcpy(nomeDoArquivo, ponteiroEntradaSerQuebrada);
+                    
+                }
+
+                if (contadorDeEntradas == 2 && ModoInput == 1){
+                    strcpy(nomeDoArquivo, ponteiroEntradaSerQuebrada);
+                }
+
+                if (contadorDeEntradas == 2 && ModoOutput == 1){
+                    strcpy(nomeDoArquivo, ponteiroEntradaSerQuebrada);
                 }
                 
                 if (qualComandoQueEscolheram == 1 && contadorDeEntradas == 2){
@@ -325,8 +362,179 @@ int main(int argc, char *argv[]){
                 wait(NULL);
             }
         }
+
+        if (ModoInput){
+
+            int PosicaoEncontrada = -1;
+            for (int j=0; j<quantidadeDeTarefas; j++){
+                if (strcmp(tarefas[j].nome, ComandoAtual.nome) == 0){
+                    PosicaoEncontrada = j;
+                }
+
+            if (PosicaoEncontrada != -1){
+
+                pid_t pid = fork();
+                if (pid < 0){
+                    perror("Fork falhou.");
+                    exit(1); //Encerrar processo atual
+                }
+
+                if (pid > 0){
+                    //Estamos no processo pai
+                    printf("Processo Pai PID = %d Processo pai espera pelo Filho PID = %d\n", getpid(), pid);
+                    wait(NULL);
+                    printf("Processo pai encerrou.\n");
+                }
+
+            else { //Senão estou no processo filho
+
+                int ArquivoSimOuNao = open(nomeDoArquivo, O_RDONLY); //Esse RDONLY serve somente p ler
+
+                if (ArquivoSimOuNao == -1){
+                    perror("erro ao abrir arquivo");
+                    exit(1);
+                }
+
+                dup2(ArquivoSimOuNao, STDIN_FILENO); //STDIN constante do sistema que representa entrada padrão
+                close(ArquivoSimOuNao);
+
+                printf("Processo Filho PID = %d Pai possui PID = %d\n", getpid(), getppid()); //getppid conseguir PID do processo pai
+                sleep(5); //filho dormindo
+
+                //com um l: argumentos separados com virgula (passa diretamente), com v: vetor de strings (se cria, voce gera), p: permite procurar o executável nos diretórios configurados na variável PATH
+                char *args[12];
+                args[0] = tarefas[PosicaoEncontrada].programa;
+
+                for (int i=0; i < tarefas[PosicaoEncontrada].quantidadeDeArgumentos; i++){
+                    args[i + 1] = tarefas[PosicaoEncontrada].argumentos[i];                                   
+                }
+
+                args[tarefas[PosicaoEncontrada].quantidadeDeArgumentos + 1] = NULL;
+                execvp(args[0], args); //execvp diz : execute ./TestandoExec usando esse vetor de argumentos
+
+                perror("o exec falhou.");
+                exit(1); //encerra o processo filho     
+
+                   }
+                }
+            }   
+        }
+
+        if (ModoOutput){
+
+            int PosicaoEncontrada = -1;
+            for (int j=0; j<quantidadeDeTarefas; j++){
+                if (strcmp(tarefas[j].nome, ComandoAtual.nome) == 0){
+                    PosicaoEncontrada = j;
+                }
+            }    
+
+            if (PosicaoEncontrada != -1){
+
+                pid_t pid = fork();
+                if (pid < 0){
+                    perror("Fork falhou.");
+                    exit(1); //Encerrar processo atual
+                }
+
+                if (pid > 0){
+                    //Estamos no processo pai
+                    printf("Processo Pai PID = %d Processo pai espera pelo Filho PID = %d\n", getpid(), pid);
+                    wait(NULL);
+                    printf("Processo pai encerrou.\n");
+                }
+
+            else { //Senão estou no processo filho
+
+                int ArquivoSimOuNao = open(nomeDoArquivo, O_WRONLY | O_CREAT | O_TRUNC, 0644); 
+                //0644 é um número que representa as permissoes para um grupo, tipo nesse caso é um terceiro argumento pra dizer: 6 = 4 + 2 (leitura e escrita) 4 = leitura 4 = leitura, o zero diz que o numero está sendo escrito em octal (nao sei o que é só aceitei)
+                //Abrir pra escrever, apenas ; se nao existir arquivo cria ; apaga o conteudo que tinha 
+
+                if (ArquivoSimOuNao == -1){
+                    perror("erro ao abrir arquivo");
+                    exit(1);
+                }
+
+                dup2(ArquivoSimOuNao, STDOUT_FILENO); //STDOUT constante do sistema que representa saída padrão
+                close(ArquivoSimOuNao);
+                sleep(5); //filho dormindo
+
+                //com um l: argumentos separados com virgula (passa diretamente), com v: vetor de strings (se cria, voce gera), p: permite procurar o executável nos diretórios configurados na variável PATH
+                char *args[12];
+                args[0] = tarefas[PosicaoEncontrada].programa;
+
+                for (int i=0; i < tarefas[PosicaoEncontrada].quantidadeDeArgumentos; i++){
+                    args[i + 1] = tarefas[PosicaoEncontrada].argumentos[i];                                   
+                }
+
+                args[tarefas[PosicaoEncontrada].quantidadeDeArgumentos + 1] = NULL;
+                execvp(args[0], args); //execvp diz : execute ./TestandoExec usando esse vetor de argumentos
+
+                perror("o exec falhou.");
+                exit(1); //encerra o processo filho     
+
+                   }
+                }
+            }   
+       
+        if (ModoAppend){
+
+            int PosicaoEncontrada = -1;
+            for (int j=0; j<quantidadeDeTarefas; j++){
+                if (strcmp(tarefas[j].nome, ComandoAtual.nome) == 0){
+                    PosicaoEncontrada = j;
+                }
+            }    
+
+            if (PosicaoEncontrada != -1){
+
+                pid_t pid = fork();
+                if (pid < 0){
+                    perror("Fork falhou.");
+                    exit(1); //Encerrar processo atual
+                }
+
+                if (pid > 0){
+                    //Estamos no processo pai
+                    printf("Processo Pai PID = %d Processo pai espera pelo Filho PID = %d\n", getpid(), pid);
+                    wait(NULL);
+                    printf("Processo pai encerrou.\n");
+                }
+
+            else { //Senão estou no processo filho
+
+                int ArquivoSimOuNao = open(nomeDoArquivo, O_WRONLY | O_CREAT | O_APPEND, 0644); 
+                //0644 é um número que representa as permissoes para um grupo, tipo nesse caso é um terceiro argumento pra dizer: 6 = 4 + 2 (leitura e escrita) 4 = leitura 4 = leitura, o zero diz que o numero está sendo escrito em octal (nao sei o que é só aceitei)
+                //Abrir pra escrever, apenas ; se nao existir arquivo cria ; acrescenta no final sem apagar o que tinha antes
+
+                if (ArquivoSimOuNao == -1){
+                    perror("erro ao abrir arquivo");
+                    exit(1);
+                }
+
+                dup2(ArquivoSimOuNao, STDOUT_FILENO); //STDOUT constante do sistema que representa saída padrão
+                close(ArquivoSimOuNao);
+                sleep(5); //filho dormindo
+
+                //com um l: argumentos separados com virgula (passa diretamente), com v: vetor de strings (se cria, voce gera), p: permite procurar o executável nos diretórios configurados na variável PATH
+                char *args[12];
+                args[0] = tarefas[PosicaoEncontrada].programa;
+
+                for (int i=0; i < tarefas[PosicaoEncontrada].quantidadeDeArgumentos; i++){
+                    args[i + 1] = tarefas[PosicaoEncontrada].argumentos[i];                                   
+                }
+
+                args[tarefas[PosicaoEncontrada].quantidadeDeArgumentos + 1] = NULL;
+                execvp(args[0], args); //execvp diz : execute ./TestandoExec usando esse vetor de argumentos
+
+                perror("o exec falhou.");
+                exit(1); //encerra o processo filho     
+
+                   }
+                }
+            }   
+        }  
     }
-}
-              
+
     return 0;
 }
