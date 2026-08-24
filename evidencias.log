@@ -1935,3 +1935,578 @@ teste.txt
 [?2004lexit
 
 Script done on 2026-08-23 17:57:07-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-23 17:57:18-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="92" LINES="9"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# foi sem qw[Kuerer
+[?2004lCommand 'foi' not found, did you mean:
+  command 'fio' from deb fio (3.36-1ubuntu0.1)
+  command 'fop' from deb fop (1:2.8-2)
+  command 'fai' from deb fai-client (6.0.5ubuntu1)
+  command 'fai' from deb python3-flask-autoindex (0.6.6-3)
+  command 'fbi' from deb fbi (2.10-4ubuntu2)
+Try: apt install <deb name>
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc process [K[K[K[K[K[K[K[Kmain.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ,[K./processflow
+[?2004lprocessflow> exit    task listar /bin/ls                   exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 17:58:49 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoar[K,[Kmi
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> append listar resultado.txt
+token: append
+token: listar
+token: resultado.txt
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1675 Processo pai espera pelo Filho PID = 1679
+exitProcesso pai encerrou.
+processflow>  exit
+token: exiexit
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> ei xit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# v[K[7mcat resultado.txt[27mcat resultado.txt
+[?2004lMakefile
+README.md
+evidencias.log
+exemplo0.c
+exemplo1.c
+main.c
+processflow
+processsflow
+resultado.txt
+teste.txt
+Makefile
+README.md
+evidencias.log
+exemplo0.c
+exemplo1.c
+main.c
+processflow
+processsflow
+resultado.txt
+teste.txt
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> append listar resultado.txt
+token: append
+token: listar
+token: resultado.txt
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1681 Processo pai espera pelo Filho PID = 1682
+Processo pai encerrou.
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat resultado.txt[27mcat resultado.txt
+[?2004lMakefile
+README.md
+evidencias.log
+exemplo0.c
+exemplo1.c
+main.c
+processflow
+processsflow
+resultado.txt
+teste.txt
+Makefile
+README.md
+evidencias.log
+exemplo0.c
+exemplo1.c
+main.c
+processflow
+processsflow
+resultado.txt
+teste.txt
+Makefile
+README.md
+evidencias.log
+exemplo0.c
+exemplo1.c
+main.c
+processflow
+processsflow
+resultado.txt
+teste.txt
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc -[Kmain.c -o po[Krocessflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# GCC M[K[K[K=[K[K[Kgcc maihn.c =o processflow
+[?2004l[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[Kmaihn.c: No such file or directory
+compilation terminated.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> run listar
+token: run
+token: listar
+tarefa na posicao 0
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1823 Processo pai espera pelo Filho PID = 1824
+Processo Filho PID = 1824 Pai possui PID = 1823
+exitMakefile   evidencias.log  exemplo1.c  processflow   resultado.txt
+README.md  exemplo0.c	   main.c      processsflow  teste.txt
+processflow> exit
+token: exitexit
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> printf "task listar /bin/ls\nrun listar\nexit\n" > teste.pf
+token: printf
+token: "task
+token: listar
+token: /bin/ls\nrun
+token: listar\nexit\n"
+token: >
+token: teste.pf
+nome: "task
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> cat teste.pf
+token: cat
+token: teste.pf
+nome: teste.pf
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> ./processflow teste.pf
+token: ./processflow
+token: teste.pf
+nome: teste.pf
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> date
+token: date
+nome: teste.pf
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 20:18:24 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoai[Kmi
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mprintf "task listar /bin/ls\nrun listar\ne[27m[7mx[27m[7mit\n" > teste.pf[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# printf "task listar /bin/ls\nrun listar\nexit\n" > teste.pf
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat teste.pf[27mcat teste.pf
+[?2004ltask listar /bin/ls
+run listar
+exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow teste.pf[27m./processflow teste.pf
+[?2004ltask listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+run listar
+token: run
+token: listar
+tarefa na posicao 0
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1852 Processo pai espera pelo Filho PID = 1853
+Processo Filho PID = 1853 Pai possui PID = 1852
+Makefile   evidencias.log  exemplo1.c  processflow   resultado.txt  teste.txt
+README.md  exemplo0.c	   main.c      processsflow  teste.pf
+exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# got st[K[K[K[K[K[K[7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'eviScript started on 2026-08-23 20:22:16-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="92" LINES="9"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mdate[27m
+[7mwhoami[27m
+[7mpwd[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+whoami
+pwd
+[?2004lSun Aug 23 20:22:23 -03 2026
+root
+/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
+[7m./processflow teste.pf[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+./processflow teste.pf
+[?2004ltask listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+run listar
+token: run
+token: listar
+tarefa na posicao 0
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1887 Processo pai espera pelo Filho PID = 1888
+Processo Filho PID = 1888 Pai possui PID = 1887
+Makefile   evidencias.log  exemplo1.c  processflow   resultado.txt  teste.txt
+README.md  exemplo0.c	   main.c      processsflow  teste.pf
+exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mtask contar /usr/bin/wc -l[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask contar /usr/bin/wc -l
+[A
+[?2004lCommand 'task' not found, but can be installed with:
+snap install task         # version v3.51.1, or
+apt  install taskwarrior  # version 2.6.2+dfsg-1
+See 'snap info task' for additional versions.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7minput contar teste.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinput contar teste.txt
+[A
+[?2004lCommand 'input' not found, but can be installed with:
+apt install yagiuda
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mtask listar /bin/ls[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask listar /bin/ls
+[A
+[?2004lCommand 'task' not found, but can be installed with:
+snap install task         # version v3.51.1, or
+apt  install taskwarrior  # version 2.6.2+dfsg-1
+See 'snap info task' for additional versions.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7moutput listar resultado_evidencia.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coutput listar resultado_evidencia.txt
+[A
+[?2004lCommand 'output' not found, but can be installed with:
+apt install yagiuda
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mappend listar resultado_evidencia.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cappend listar resultado_evidencia.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2026-08-23 20:24:03-03:00 [COMMAND_EXIT_CODE="127"]
+dencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mdate[27m
+[7mwhoami[27m
+[7mpwd[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+whoami
+pwd
+[?2004lSun Aug 23 20:22:23 -03 2026
+root
+/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
+[7m./processflow teste.pf[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+./processflow teste.pf
+[?2004ltask listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+run listar
+token: run
+token: listar
+tarefa na posicao 0
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1887 Processo pai espera pelo Filho PID = 1888
+Processo Filho PID = 1888 Pai possui PID = 1887
+Makefile   evidencias.log  exemplo1.c  processflow   resultado.txt  teste.txt
+README.md  exemplo0.c	   main.c      processsflow  teste.pf
+exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mtask contar /usr/bin/wc -l[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask contar /usr/bin/wc -l
+[A
+[?2004lCommand 'task' not found, but can be installed with:
+snap install task         # version v3.51.1, or
+apt  install taskwarrior  # version 2.6.2+dfsg-1
+See 'snap info task' for additional versions.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7minput contar teste.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinput contar teste.txt
+[A
+[?2004lCommand 'input' not found, but can be installed with:
+apt install yagiuda
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mtask listar /bin/ls[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask listar /bin/ls
+[A
+[?2004lCommand 'task' not found, but can be installed with:
+snap install task         # version v3.51.1, or
+apt  install taskwarrior  # version 2.6.2+dfsg-1
+See 'snap info task' for additional versions.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7moutput listar resultado_evidencia.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coutput listar resultado_evidencia.txt
+[A
+[?2004lCommand 'output' not found, but can be installed with:
+apt install yagiuda
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mappend listar resultado_evidencia.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cappend listar resultado_evidencia.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+Script done.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mdate[27m
+[7mwhoami[27m
+[7mpwd[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+whoami
+pwd
+[?2004lSun Aug 23 20:24:20 -03 2026
+root
+/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task contar /usr/bin/wc -l
+token: task
+token: contar
+token: /usr/bin/wc
+token: -l
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> input contar teste.txt
+token: input
+token: contar
+token: teste.txt
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 0
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1976
+Processo Filho PID = 1976 Pai possui PID = 1964
+4
+Processo pai encerrou.
+processflow> task listar /bin/ls^[[H                       task listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> output listar resultado_evidencia.txt
+token: output
+token: listar
+token: resultado_evidencia.txt
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1977
+Processo pai encerrou.
+processflow> append listar resultado_evidencia.txt
+token: append
+token: listar
+token: resultado_evidencia.txt
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1978
+Processo pai encerrou.
+processflow> task ordenar /usr/bin/sort
+token: task
+token: ordenar
+token: /usr/bin/sort
+nome: ordenar
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+processflow> run pipe listar ordenar contar
+token: run
+token: pipe
+token: listar
+token: ordenar
+token: contar
+nome: pipe
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1979
+Processo pai encerrou.
+Processo Filho PID = 1979 Pai possui PID = 1964
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1980
+Processo pai encerrou.
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1981
+Processo Filho PID = 1980 Pai possui PID = 1964
+Processo pai encerrou.
+Processo Filho PID = 1981 Pai possui PID = 1964
+12
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat resultado_evidencia.txt[27mcat resultado_evidencia.txt
+[?2004lMakefile
+README.md
+evidencias.log
+exemplo0.c
+exemplo1.c
+main.c
+processflow
+processsflow
+resultado.txt
+resultado_evidencia.txt
+teste.pf
+teste.txt
+Makefile
+README.md
+evidencias.log
+exemplo0.c
+exemplo1.c
+main.c
+processflow
+processsflow
+resultado.txt
+resultado_evidencia.txt
+teste.pf
+teste.txt
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mworkdir /tmp[27mworkdir /tmp
+[?2004lworkdir: command not found
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> workdir /tmp
+token: workdir
+token: /tmp
+nome: /tmp
+programa: 
+quantidades de argumentos: 0
+processflow> gcc main.c -o processflow
+token: gcc
+token: main.c
+token: -o
+token: processflow
+nome: main.c
+programa: 
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc maiScript started on 2026-08-23 20:24:14-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="92" LINES="9"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mdate[27m
+[7mwhoami[27m
+[7mpwd[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+whoami
+pwd
+[?2004lSun Aug 23 20:24:20 -03 2026
+root
+/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task contar /usr/bin/wc -l
+token: task
+token: contar
+token: /usr/bin/wc
+token: -l
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> input contar teste.txt
+token: input
+token: contar
+token: teste.txt
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 0
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1976
+Processo Filho PID = 1976 Pai possui PID = 1964
+4
+Processo pai encerrou.
+processflow> task listar /bin/ls^[[H                       task listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> output listar resultado_evidencia.txt
+token: output
+token: listar
+token: resultado_evidencia.txt
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1977
+Processo pai encerrou.
+processflow> append listar resultado_evidencia.txt
+token: append
+token: listar
+token: resultado_evidencia.txt
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1978
+Processo pai encerrou.
+processflow> task ordenar /usr/bin/sort
+token: task
+token: ordenar
+token: /usr/bin/sort
+nome: ordenar
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+processflow> run pipe listar ordenar contar
+token: run
+token: pipe
+token: listar
+token: ordenar
+token: contar
+nome: pipe
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1979
+Processo pai encerrou.
+Processo Filho PID = 1979 Pai possui PID = 1964
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1980
+Processo pai encerrou.
+Processo Pai PID = 1964 Processo pai espera pelo Filho PID = 1981
+Processo Filho PID = 1980 Pai possui PID = 1964
+Processo pai encerrou.
+Processo Filho PID = 1981 Pai possui PID = 1964
+12
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat resultado_evidencia.txt[27mcat resultado_evidencia.txt
+[?2004lMakefile
+README.md
+evidencias.log
+exemplo0.c
+exemplo1.c
+main.c
+processflow
+processsflow
+resultado.txt
+resultado_evidencia.txt
+teste.pf
+teste.txt
+Makefile
+README.md
+evidencias.log
+exemplo0.c
+exemplo1.c
+main.c
+processflow
+processsflow
+resultado.txt
+resultado_evidencia.txt
+teste.pf
+teste.txt
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mworkdir /tmp[27mworkdir /tmp
+[?2004lworkdir: command not found
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> workdir /tmp
+token: workdir
+token: /tmp
+nome: /tmp
+programa: 
+quantidades de argumentos: 0
+processflow> gcc main.c -o processflow
+token: gcc
+token: main.c
+token: -o
+token: processflow
+nome: main.c
+programa: 
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJl

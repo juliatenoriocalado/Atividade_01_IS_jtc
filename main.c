@@ -5,6 +5,7 @@
 #include <sys/wait.h>
 #include <string.h>
 #include <fcntl.h>
+#include <errno.h>
 
 typedef struct Comando {
     char nome[30];
@@ -27,12 +28,55 @@ int main(int argc, char *argv[]){
     int ModoAppend = 0;
     int ModoOutput = 0;
     int ModoInput = 0;
+    int workflow = 0;
+    FILE *arquivoWorkflow;
+    int modoWorkDir = 0;
+    char diretorioWorkDir[30]; 
+    char buffer[1024]; //criação de um buffer (array de caracteres) com 1024 caracteres para armazenas o diretori ode trabalho atual
+
+    if (argc == 2){
+        arquivoWorkflow = fopen(argv[1], "r"); //r abrir arquivo p leitura
+
+        if (arquivoWorkflow == NULL){
+            perror("erro ao abrir o arquivo");
+            exit(1);
+        }
+        
+        else{
+            workflow = 1;
+        }
+    }
+    
+    else if (argc > 2){
+        printf("chamou argumentos demais\n");
+        exit(1);
+    }
+    
+    else{
+
+        //faço nada pq vai pro interativo
+
+    }
 
     while (achouOuNao == 0){
 
-        printf("processflow> ");
+        if (workflow == 1){
+            //imprimir cada linha de comando antes de ser processada porque marcelo pediu
+            if (fgets(linhaDeComandoEscrita, 100, arquivoWorkflow) == NULL){
+                break;
+            }
+            
+            else{
+                printf("%s", linhaDeComandoEscrita);
+            }
 
-        fgets(linhaDeComandoEscrita, 100, stdin);
+        }
+
+        if (workflow == 0){
+            printf("processflow> ");
+            fgets(linhaDeComandoEscrita, 100, stdin);
+        }
+
         linhaDeComandoEscrita[strcspn(linhaDeComandoEscrita, "\n")] = '\0';
         int comparacao = strcmp(linhaDeComandoEscrita, "exit");
 
@@ -47,6 +91,7 @@ int main(int argc, char *argv[]){
             ModoAppend = 0;
             ModoInput = 0;
             ModoOutput = 0;
+            modoWorkDir = 0;
 
             int contadorDeEntradas = 0;
 
@@ -54,9 +99,6 @@ int main(int argc, char *argv[]){
             ComandoAtual.quantidadeDeArgumentos = 0;
             char *ponteiroEntradaSerQuebrada;
             ponteiroEntradaSerQuebrada = strtok(linhaDeComandoEscrita, " "); //aspa dupla pq lê string
-            int ModoOutput = 0;
-            int ModoInput = 0;
-            int ModoAppend = 0;
             
             int qualComandoQueEscolheram = 0;
 
@@ -85,6 +127,10 @@ int main(int argc, char *argv[]){
                         ModoAppend = 1;
                     }
 
+                    if (strcmp(ponteiroEntradaSerQuebrada, "workdir") == 0){
+                        modoWorkDir = 1;
+                    }
+
                 }
 
                 if (contadorDeEntradas == 1){
@@ -95,8 +141,10 @@ int main(int argc, char *argv[]){
                         paralelo = 1;
                     }if (strcmp(ComandoAtual.nome, "pipe") == 0){
                         modoPipe = 1;
+                    }if (modoWorkDir == 1){
+                        strcpy(diretorioWorkDir,  ponteiroEntradaSerQuebrada);
                     }
-
+                    
                 }
 
                 if (contadorDeEntradas == 2 && ModoAppend == 1){
@@ -534,7 +582,34 @@ int main(int argc, char *argv[]){
                 }
             }   
         }  
-    }
+
+        if (modoWorkDir){
+            if (getcwd(buffer, 1024) == NULL){
+                printf("deu erro ao tentar trocar de diretorio\n");
+                exit(1);
+            }
+
+            else{
+
+                printf("diretorio de trabalho atual: \n\n%s\n\n", buffer);
+
+                if (chdir(diretorioWorkDir) == -1){
+                    printf("erro ao tentar trocar de diretorio");
+                    exit(1);
+                }
+
+                if (getcwd(buffer, 1024) == NULL){
+                    printf("deu erro ao tentar trocar de diretorio\n");
+                    exit(1);
+                }
+
+                else{
+                    printf("diretorio de trabalho atual: \n\n%s\n\n", buffer); //verificar se deu certo ao trocar             
+                }
+            }    
+        }
+
+    } 
 
     return 0;
 }
