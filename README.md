@@ -76,7 +76,7 @@ workdir /tmp
 ```text
 start tarefa
 jobs
-wait <PID>
+wait <jobId>
 ```
 
 Os testes realizados durante o desenvolvimento estão registrados no arquivo `evidencias.log`.
