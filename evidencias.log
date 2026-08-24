@@ -5036,4 +5036,193 @@ token: /bin/echo
 token: DOIS
 nome: dois
 programa: /bin/echo
-quantidade
+quantidades de argumentos: 1
+argumento(s)[0]: DOIS
+processflow> task tres /bin/echo TRES
+token: task
+token: tres
+token: /bin/echo
+token: TRES
+nome: tres
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: TRES
+processflow> run sequential um dois tres
+token: run
+token: sequential
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1854
+Processo Filho PID = 1854 Pai possui PID = 1848
+UM
+Processo pai encerrou.
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1855
+Processo Filho PID = 1855 Pai possui PID = 1848
+DOIS
+Processo pai encerrou.
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1856
+Processo Filho PID = 1856 Pai possui PID = 1848
+TRES
+Processo pai encerrou.
+nome: sequential
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> run parallel um dois tres
+token: run
+token: parallel
+token: um
+token: dois
+token: tres
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1857
+Processo pai encerrou.
+Processo Filho PID = 1857 Pai possui PID = 1848
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1858
+Processo pai encerrou.
+Processo Filho PID = 1858 Pai possui PID = 1848
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1859
+Processo pai encerrou.
+Processo Filho PID = 1859 Pai possui PID = 1848
+UM
+DOIS
+TRES
+nome: parallel
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> task ordenar /usr/bin/sort
+token: task
+token: ordenar
+token: /usr/bin/sort
+nome: ordenar
+programa: /usr/bin/sort
+quantidades de argumentos: 0
+processflow> task contar /usr/bin/wc -l
+token: task
+token: contar
+token: /usr/bin/wc
+token: -l
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> v run pipe listar ordenar contar
+token: run
+token: pipe
+token: listar
+token: ordenar
+token: contar
+nome: pipe
+programa: /usr/bin/wc
+quantidades de argumentos: 0
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1862
+Processo pai encerrou.
+Processo Filho PID = 1862 Pai possui PID = 1848
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1863
+Processo pai encerrou.
+Processo Filho PID = 1863 Pai possui PID = 1848
+Processo Filho PID = 1864 Pai possui PID = 1848
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1864
+Processo pai encerrou.
+16
+processflow> input contar teste.txt
+token: input
+token: contar
+token: teste.txt
+nome: contar
+programa: /usr/bin/wc
+quantidades de argumentos: 0
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1865
+Processo Filho PID = 1865 Pai possui PID = 1848
+4
+Processo pai encerrou.
+processflow> output listar resultado.txt
+token: output
+token: listar
+token: resultado.txt
+nome: listar
+programa: /usr/bin/wc
+quantidades de argumentos: 0
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1866
+Processo pai encerrou.
+processflow> append listar resultado.txt
+token: append
+token: listar
+token: resultado.txt
+nome: listar
+programa: /usr/bin/wc
+quantidades de argumentos: 0
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1867
+Processo pai encerrou.
+processflow> task esperar /bin/sleep 3
+token: task
+token: esperar
+token: /bin/sleep
+token: 3
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 3
+processflow> start esperar
+token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 1848 Processo pai nao espera pelo Filho PID = 1868
+[1] 1868
+processflow> Processo Filho PID = 1868 Pai possui PID = 1848
+oi  jobs
+token: jobs
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+[1] 1868
+processflow> wait 1
+token: wait
+token: 1
+nome: 1
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> wait 99
+token: wait
+token: 99
+nome: 99
+programa: /bin/sleep
+quantidades de argumentos: 0
+job inexistente
+processflow> workdir /tmp
+token: workdir
+token: /tmp
+nome: /tmp
+programa: /bin/sleep
+quantidades de argumentos: 0
+diretorio de trabalho atual: 
+
+/mnt/c/Users/julia/Atividade_01_IS
+
+diretorio de trabalho atual: 
+
+/tmp
+
+processflow> task onde /bin/pwd
+token: task
+token: onde
+token: /bin/pwd
+nome: onde
+programa: /bin/pwd
+quantidades de argumentos: 0
+processflow> run onde
+token: run
+token: onde
+tarefa na posicao 7
+nome: onde
+programa: /bin/pwd
+quantidades de argumentos: 0
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1882
+Processo Filho PID = 1882 Pai possui PID = 1848
+exit    /tmp
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# exig[Kt
+[?2004lexit
+
+Script done on 2026-08-24 20:39:26-03:00 [COMMAND_EXIT_CODE="0"]
