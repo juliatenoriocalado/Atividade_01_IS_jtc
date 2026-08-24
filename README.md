@@ -83,4 +83,4 @@ Os testes realizados durante o desenvolvimento estão registrados no arquivo `ev
 
 ## GitHub
 
-https://github.com/juliatenoriocalado/Atividade_01_IS
+[https://github.com/juliatenoriocalado/Atividade_01_IS_jtc](https://github.com/juliatenoriocalado/Atividade_01_IS_jtc)
