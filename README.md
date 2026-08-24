@@ -1,23 +1,86 @@
-# ProcessFlow
-
-ProcessFlow é um orquestrador de processos desenvolvido em C para cadastrar e executar tarefas por meio de processos filhos. O programa possui modo interativo e modo workflow, além de execução simples, sequencial, paralela, pipelines, redirecionamentos, mudança de diretório e execução em background.
-
-## Arquivos
-
-- `main.c` - implementação do ProcessFlow.
-- `Makefile` - responsável pela compilação e limpeza do executável.
-- `README.md` - instruções para compilação, execução e testes.
-- `evidencias.log` - registro dos comandos e testes realizados durante o desenvolvimento.
-- `teste.pf` - arquivo utilizado para testar o modo workflow.
-- `teste.txt` - arquivo utilizado nos testes de redirecionamento de entrada.
-
-## Sistema operacional
-
-O programa foi desenvolvido e testado em Ubuntu através do WSL no Windows.
-
-## Compilação
-
-Para remover o executável gerado anteriormente:
+Para compilar o programa:
 
 ```bash
-make clean
+make
+```
+
+O executável gerado será `processflow`.
+
+## Execução
+
+### Modo interativo
+
+```bash
+./processflow
+```
+
+Nesse modo será apresentado o prompt:
+
+```text
+processflow>
+```
+
+### Modo workflow
+
+```bash
+./processflow teste.pf
+```
+
+Nesse modo, os comandos presentes no arquivo `.pf` são lidos e processados sem apresentar o prompt interativo.
+
+## Testes
+
+Os testes foram realizados manualmente pelo terminal.
+
+### Execução simples
+
+```text
+task listar /bin/ls -l
+run listar
+```
+
+### Execução sequencial
+
+```text
+run sequential tarefa1 tarefa2 tarefa3
+```
+
+### Execução paralela
+
+```text
+run parallel tarefa1 tarefa2 tarefa3
+```
+
+### Pipeline
+
+```text
+run pipe listar ordenar contar
+```
+
+### Redirecionamentos
+
+```text
+input contar teste.txt
+output listar resultado.txt
+append listar resultado.txt
+```
+
+### Mudança de diretório
+
+```text
+workdir /tmp
+```
+
+### Execução em background
+
+```text
+start tarefa
+jobs
+wait <PID>
+```
+
+Os testes realizados durante o desenvolvimento estão registrados no arquivo `evidencias.log`.
+
+## GitHub
+
+https://github.com/juliatenoriocalado/Atividade_01_IS
