@@ -315,13 +315,17 @@ processflow> process       run listar
 token: run
 Script started on 2026-08-21 20:44:33-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="190" LINES="19"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mdate[27mdate
-[?2004lFri Aug 21 20:46:09 -03 2026
+[?2004l
+Fri Aug 21 20:46:09 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mwhoami[27mwhoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwdwhoami[2Pdate./processflowgcc main.c -o processflow[12P./processflow
-[?2004lprocessflow> ^[[A^[[A^[[A^[[A^[[A^[[B                        task listar /bin/ls -l
+[?2004l
+processflow> ^[[A^[[A^[[A^[[A^[[A^[[B                        task listar /bin/ls -l
 token: task
 token: listar
 token: /bin/ls
@@ -350,7 +354,8 @@ quantidades de argumentos: 1
 argumento(s)[0]: -l
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflowpwd[K./processflow
-[?2004lprocessflow> processflow> run sequential listar eco data
+[?2004l
+processflow> processflow> run sequential listar eco data
 token: processflow>
 token: run
 token: sequential
@@ -377,10 +382,12 @@ argumento(s)[0]: -l
 processflow> ^Z
 [1]+  Stopped                 ./processflow
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# oi[K[Kexit
-[?2004lexit
+[?2004l
+exit
 There are stopped jobs.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# exit./processflow
-[?2004lprocessflow> task listar /bin/ls -l
+[?2004l
+processflow> task listar /bin/ls -l
 run listatoken: task
 token: listar
 token: /bin/ls
@@ -418,31 +425,46 @@ programa: /bin/ls
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main,c[K[K.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:84:25:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
    84 |                         [01;31m[KPosicaoEncontrada[m[K = -1;
       |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
 [01m[Kmain.c:84:25:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc [K[K[K[Kgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc [K[K[K[Kgcc main.c -o processflow
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:91:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
    91 |                 [01;31m[KPosicaoEncontrada[m[K = -1;
       |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
 [01m[Kmain.c:91:17:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc min[K[Kain.c -o r[Kprocessflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:91:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
    91 |                 [01;31m[KPosicaoEncontrada[m[K = -1;
       |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
 [01m[Kmain.c:91:17:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gccm[K main,c[K[K.c -i[Ko processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:117:31:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
   117 |             args[0] = tarefas[[01;31m[KPosicaoEncontrada[m[K].programa;
       |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
 [01m[Kmain.c:117:31:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:124:17:[m[K [01;31m[Kerror: [m[K‘[01m[KqualComandoQueEscolheram[m[K’ undeclared (first use in this function)
   124 |             if ([01;31m[KqualComandoQueEscolheram[m[K == 1){
       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
@@ -458,8 +480,10 @@ processflow> exit
   185 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mchar *args[12];[27m[1Pchar *args[12][K[K[K[K[K[K[K[K[K[K[K[K[K[Kgcc main.c -o r[Kprocessflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task listar /bin/ls -l
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task listar /bin/ls -l
 token: task
 token: listar
 token: /bin/ls
@@ -494,8 +518,10 @@ argumento(s)[2]: eco
 argumento(s)[3]: data
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main,[K[Kn.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task listar /bin/ls -l
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task listar /bin/ls -l
 token: task
 token: listar
 token: /bin/ls
@@ -563,10 +589,13 @@ Processo Filho PID = 1300 Pai possui PID = 1293
 Sat Aug 22 00:03:17 -03 2026
 Processo pai encerrou.
 processflow> [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# s[Kdate
-[?2004lSat Aug 22 00:03:22 -03 2026
+[?2004l
+Sat Aug 22 00:03:22 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> task listar /bin/ls -l
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004l
+processflow> task listar /bin/ls -l
 token: task
 token: listar
 token: /bin/ls
@@ -591,23 +620,34 @@ token: /bin/date
 nome: data
 prograScript started on 2026-08-22 14:03:01-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="92" LINES="18"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSat Aug 22 14:03:12 -03 2026
+[?2004l
+Sat Aug 22 14:03:12 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main,c[K[K.c -i[Kp[Ko processdlo[K[K[Kflow
-[?2004l[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
+[?2004l
+[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
    95 |         [01;31m[Kif[m[K (sequencial){
       |         [01;31m[K^~[m[K
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-[?2004l[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+[?2004l
+[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
    95 |         [01;31m[Kif[m[K (sequencial){
       |         [01;31m[K^~[m[K
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:179:13:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KPosicaoEncontrada[m[K’
   179 |         int [01;31m[KPosicaoEncontrada[m[K = -1; //nao encontrou
       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
@@ -620,7 +660,8 @@ prograScript started on 2026-08-22 14:03:01-03:00 [TERM="xterm-256color" TTY="/d
 [01m[Kmain.c:237:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
 [01m[Kmain.c:237:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
   236 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
@@ -628,27 +669,38 @@ prograScript started on 2026-08-22 14:03:01-03:00 [TERM="xterm-256color" TTY="/d
 [01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
 [01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:238:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
   238 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
 [01m[Kmain.c:238:1:[m[K [01;31mScript started on 2026-08-22 14:03:05-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="92" LINES="18"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSat Aug 22 14:03:12 -03 2026
+[?2004l
+Sat Aug 22 14:03:12 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main,c[K[K.c -i[Kp[Ko processdlo[K[K[Kflow
-[?2004l[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
+[?2004l
+[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
    95 |         [01;31m[Kif[m[K (sequencial){
       |         [01;31m[K^~[m[K
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-[?2004l[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+[?2004l
+[01m[Kmain.c:95:9:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kif[m[K’
    95 |         [01;31m[Kif[m[K (sequencial){
       |         [01;31m[K^~[m[K
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:179:13:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KPosicaoEncontrada[m[K’
   179 |         int [01;31m[KPosicaoEncontrada[m[K = -1; //nao encontrou
       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
@@ -661,7 +713,8 @@ prograScript started on 2026-08-22 14:03:01-03:00 [TERM="xterm-256color" TTY="/d
 [01m[Kmain.c:237:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
 [01m[Kmain.c:237:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
   236 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
@@ -669,25 +722,30 @@ prograScript started on 2026-08-22 14:03:01-03:00 [TERM="xterm-256color" TTY="/d
 [01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
 [01m[Kmain.c:236:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:238:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
   238 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
 [01m[Kmain.c:238:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o proces[Kerror: [m[Kexpected declaration or statement at end of input
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:239:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
   239 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# v[K[7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:239:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
   239 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# main[K[K[K[Kgcc nain[K[K[K[Kmainx[K.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# .;[K/processdflo[K[K[K[Kflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# .;[K/processdflo[K[K[K[Kflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -737,8 +795,10 @@ programa: /bin/echo
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pr[K[Kmaini[K[K[K[K[Kgcc mainl.c[K[K[K.c -o processdfl[K[K[Kflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -793,18 +853,22 @@ programa: /bin/echo
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/jusflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:239:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
   239 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# v[K[7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:239:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
   239 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# main[K[K[K[Kgcc nain[K[K[K[Kmainx[K.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# .;[K/processdflo[K[K[K[Kflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# .;[K/processdflo[K[K[K[Kflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -854,8 +918,10 @@ programa: /bin/echo
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pr[K[Kmaini[K[K[K[K[Kgcc mainl.c[K[K[K.c -o processdfl[K[K[Kflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -910,9 +976,12 @@ programa: /bin/echo
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julilia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julilia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -962,8 +1031,10 @@ programa: /bin/echo
 quantidades de argumentos: 0
 processflow> exig t
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pro[K[K[Kgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# run[K[K[K./processdflo[K[K[K[Kflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# run[K[K[K./processdflo[K[K[K[Kflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -1042,8 +1113,10 @@ programa: /bin/echo
 quantidades de argumentos: 0
 processflow> we  exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividadea/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividadea/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -1093,8 +1166,10 @@ programa: /bin/echo
 quantidades de argumentos: 0
 processflow> exig t
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pro[K[K[Kgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# run[K[K[K./processdflo[K[K[K[Kflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# run[K[K[K./processdflo[K[K[K[Kflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -1173,8 +1248,10 @@ programa: /bin/echo
 quantidades de argumentos: 0
 processflow> we  exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -1184,7 +1261,8 @@ programa: /bin/echo
 quantidades de argumentos: 1
 argumento(s)[0]: UM
 processflow> run um[_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -1205,24 +1283,48 @@ Processo Filho PID = 1442 Pai possui PID = 1441
 UM
 processflow> da  exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSat Aug 22 16:27:09 -03 2026
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Sat Aug 22 16:27:09 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 00:26:46 -03 2026
+[?2004l
+Sun Aug 23 00:26:46 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c processflow[K[K[K[K[K[K[K[K[K[K[Kó proce[K[K[K[K[K[K[K-op[K processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:278:21:[m[K [01;31m[Kerror: [m[K‘[01m[KquantidadeFilhos[m[K’ undeclared (first use in this function)
   278 |                     [01;31m[KquantidadeFilhos[m[K++;
       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
 [01m[Kmain.c:278:21:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -1271,24 +1373,48 @@ Processo Filho PID = 1442 Pai possui PID = 1441
 UM
 processflow> da  exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSat Aug 22 16:27:09 -03 2026
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Sat Aug 22 16:27:09 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 00:26:46 -03 2026
+[?2004l
+Sun Aug 23 00:26:46 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c processflow[K[K[K[K[K[K[K[K[K[K[Kó proce[K[K[K[K[K[K[K-op[K processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:278:21:[m[K [01;31m[Kerror: [m[K‘[01m[KquantidadeFilhos[m[K’ undeclared (first use in this function)
   278 |                     [01;31m[KquantidadeFilhos[m[K++;
       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
 [01m[Kmain.c:278:21:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -1336,20 +1462,26 @@ Processo Filho PID = 2117 Pai possui PID = 2105
 run parallel um dois tresUM
 Processo pai encerrou.Script started on 2026-08-23 00:26:41-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="92" LINES="5"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 00:26:46 -03 2026
+[?2004l
+Sun Aug 23 00:26:46 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c processflow[K[K[K[K[K[K[K[K[K[K[Kó proce[K[K[K[K[K[K[K-op[K processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:278:21:[m[K [01;31m[Kerror: [m[K‘[01m[KquantidadeFilhos[m[K’ undeclared (first use in this function)
   278 |                     [01;31m[KquantidadeFilhos[m[K++;
       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
 [01m[Kmain.c:278:21:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task um /bin/echo UM
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task um /bin/echo UM
 token: task
 token: um
 token: /bin/echo
@@ -1505,9 +1637,19 @@ Processo pai encerrou.
 Processo Filho PID = 2130 Pai possui PID = 2105
 TRES
 processflow> exit
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c ó pro[K[K[K[K[K-o peo[Kr[K[Krocessflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processl[Kfl[Klow
-[?2004lprocessflow> task listar /bin/ls
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c ó pro[K[K[K[K[K-o peo[Kr[K[Krocessflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processl[Kfl[Klow
+[?2004l
+processflow> task listar /bin/ls
 token: task
 token: listar
 token: /bin/ls
@@ -1615,9 +1757,19 @@ Processo pai encerrou.
 Processo Filho PID = 2130 Pai possui PID = 2105
 TRES
 processflow> exit
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c ó pro[K[K[K[K[K-o peo[Kr[K[Krocessflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processl[Kfl[Klow
-[?2004lprocessflow> task listar /bin/ls
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c ó pro[K[K[K[K[K-o peo[Kr[K[Krocessflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processl[Kfl[Klow
+[?2004l
+processflow> task listar /bin/ls
 token: task
 token: listar
 token: /bin/ls
@@ -1685,9 +1837,19 @@ Processo pai encerrou.
 Processo Filho PID = 2130 Pai possui PID = 2105
 TRES
 processflow> exit
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c ó pro[K[K[K[K[K-o peo[Kr[K[Krocessflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processl[Kfl[Klow
-[?2004lprocessflow> task listar /bin/ls
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mainc[K.c ó pro[K[K[K[K[K-o peo[Kr[K[Krocessflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processl[Kfl[Klow
+[?2004l
+processflow> task listar /bin/ls
 token: task
 token: listar
 token: /bin/ls
@@ -1751,10 +1913,13 @@ programa: /usr/bin/sort
 quantidades de argumentos: 0
 processflow> eix  xit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 01:09:25 -03 2026
+[?2004l
+Sun Aug 23 01:09:25 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> task listar /bin/ls
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004l
+processflow> task listar /bin/ls
 token: task
 token: listar
 token: /bin/ls
@@ -1794,13 +1959,17 @@ Processo pai encerrou.
 Processo Filho PID = 2393 Pai possui PID = 2389
 Processo Pai PID = 2389 Processo pai espera peloScript started on 2026-08-23 17:22:57-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="92" LINES="9"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 17:23:02 -03 2026
+[?2004l
+Sun Aug 23 17:23:02 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc -[Kmainc.[K[K.c -o poc[K[Krocessflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:44:13:[m[K [01;31m[Kerror: [m[K‘[01m[KModoAppend[m[K’ undeclared (first use in this function)
    44 |             [01;31m[KModoAppend[m[K = 0;
       |             [01;31m[K^~~~~~~~~~[m[K
@@ -1819,7 +1988,8 @@ In file included from [01m[Kmain.c:5[m[K:
    83 | extern __pid_t [01;36m[Kwait[m[K (int *__stat_loc);
       |                [01;36m[K^~~~[m[K
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc a[Kmain.c -o procesf[Ksflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:44:13:[m[K [01;31m[Kerror: [m[K‘[01m[KModoAppend[m[K’ undeclared (first use in this function)
    44 |             [01;31m[KModoAppend[m[K = 0;
       |             [01;31m[K^~~~~~~~~~[m[K
@@ -1831,8 +2001,10 @@ In file included from [01m[Kmain.c:5[m[K:
    46 |             [01;31m[KModoOutput[m[K = 0;
       |             [01;31m[K^~~~~~~~~~[m[K
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> gcc man inc.  .c -o processflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> gcc man inc.  .c -o processflow
 token: gcc
 token: main.c
 token: -o
@@ -1842,8 +2014,10 @@ programa:
 quantidades de argumentos: 0
 processflow> main    exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc pr[K[Kmain.c -o processl[Kflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> printf "banana\nmaçã\nuva\npera\n" > teste.txt
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> printf "banana\nmaçã\nuva\npera\n" > teste.txt
 token: printf
 token: "banana\nmaçã\nuva\npera\n"
 token: >
@@ -1852,14 +2026,18 @@ nome: "banana\nmaçã\nuva\npera\n"
 programa: 
 quantidades de argumentos: 0
 processflow> cat teste.txt             exit
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mprintf "banana\nmaçã\nuva\npera\n" > teste[27m[7m.[27m[7mtxt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# printf "banana\nmaçã\nuva\npera\n" > teste.txt
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat teste.txt[27mcat teste.txt
-[?2004lbanana
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mprintf "banana\nmaçã\nuva\npera\n" > teste[27m[7m.[27m[7mtxt[27m[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# printf "banana\nmaçã\nuva\npera\n" > teste.txt
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat teste.txt[27mcat teste.txt
+[?2004l
+banana
 maçã
 uva
 pera
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> task contar /usr/bin/wc -l
+[?2004l
+processflow> task contar /usr/bin/wc -l
 token: task
 token: contar
 token: /usr/bin/wc
@@ -1881,7 +2059,8 @@ Processo Filho PID = 1612 Pai possui PID = 1611
 Processo pai encerrou.
 processflow> p gcc     exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# proce[K[K[K[K[Kgcc mainm[K.c - p[K[Ko processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:449:59:[m[K [01;31m[Kerror: [m[K‘[01m[KO_RSWR[m[K’ undeclared (first use in this function); did you mean ‘[01m[KO_RDWR[m[K’?
   449 |                 int ArquivoSimOuNao = open(nomeDoArquivo, [01;31m[KO_RSWR[m[K); //Esse RDONLY serve somente p ler e escrever substituindo o conteúdo (tipo write)
       |                                                           [01;31m[K^~~~~~[m[K
@@ -1895,15 +2074,18 @@ processflow> p gcc     exit
   484 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# process fl[K[K[K[K[K[K[K[K[K[Kmai=[K[K[K[Kgcc main.c -o poc[K[Krocessflow
-[?2004l[01m[Kmain.c:483:5:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kreturn[m[K’
+[?2004l
+[01m[Kmain.c:483:5:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kreturn[m[K’
   483 |     [01;31m[Kreturn[m[K 0;
       |     [01;31m[K^~~~~~[m[K
 [01m[Kmain.c:484:1:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[K}[m[K’ token
   484 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc mzi[K[Kain.c ó pr[K[K[K[K-o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task listar /bin/ls
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task listar /bin/ls
 token: task
 token: listar
 token: /bin/ls
@@ -1921,7 +2103,8 @@ Processo Pai PID = 1626 Processo pai espera pelo Filho PID = 1627
 Processo pai encerrou.
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat resultado.txt[27mcat resultado.txt
-[?2004lMakefile
+[?2004l
+Makefile
 README.md
 evidencias.log
 exemplo0.c
@@ -1932,12 +2115,14 @@ processsflow
 resultado.txt
 teste.txt
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# exir[Kt
-[?2004lexit
+[?2004l
+exit
 
 Script done on 2026-08-23 17:57:07-03:00 [COMMAND_EXIT_CODE="0"]
 Script started on 2026-08-23 17:57:18-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="92" LINES="9"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# foi sem qw[Kuerer
-[?2004lCommand 'foi' not found, did you mean:
+[?2004l
+Command 'foi' not found, did you mean:
   command 'fio' from deb fio (3.36-1ubuntu0.1)
   command 'fop' from deb fop (1:2.8-2)
   command 'fai' from deb fai-client (6.0.5ubuntu1)
@@ -1945,16 +2130,22 @@ Script started on 2026-08-23 17:57:18-03:00 [TERM="xterm-256color" TTY="/dev/pts
   command 'fbi' from deb fbi (2.10-4ubuntu2)
 Try: apt install <deb name>
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc process [K[K[K[K[K[K[K[Kmain.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ,[K./processflow
-[?2004lprocessflow> exit    task listar /bin/ls                   exit
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ,[K./processflow
+[?2004l
+processflow> exit    task listar /bin/ls                   exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 17:58:49 -03 2026
+[?2004l
+Sun Aug 23 17:58:49 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoar[K,[Kmi
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task listar /bin/ls
+[?2004l
+processflow> task listar /bin/ls
 token: task
 token: listar
 token: /bin/ls
@@ -1977,7 +2168,8 @@ programa: /bin/ls
 quantidades de argumentos: 0
 processflow> ei xit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# v[K[7mcat resultado.txt[27mcat resultado.txt
-[?2004lMakefile
+[?2004l
+Makefile
 README.md
 evidencias.log
 exemplo0.c
@@ -1998,7 +2190,8 @@ processsflow
 resultado.txt
 teste.txt
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> task listar /bin/ls
+[?2004l
+processflow> task listar /bin/ls
 token: task
 token: listar
 token: /bin/ls
@@ -2016,16 +2209,7 @@ Processo Pai PID = 1681 Processo pai espera pelo Filho PID = 1682
 Processo pai encerrou.
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat resultado.txt[27mcat resultado.txt
-[?2004lMakefile
-README.md
-evidencias.log
-exemplo0.c
-exemplo1.c
-main.c
-processflow
-processsflow
-resultado.txt
-teste.txt
+[?2004l
 Makefile
 README.md
 evidencias.log
@@ -2046,13 +2230,31 @@ processflow
 processsflow
 resultado.txt
 teste.txt
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc -[Kmain.c -o po[Krocessflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# GCC M[K[K[K=[K[K[Kgcc maihn.c =o processflow
-[?2004l[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[Kmaihn.c: No such file or directory
+Makefile
+README.md
+evidencias.log
+exemplo0.c
+exemplo1.c
+main.c
+processflow
+processsflow
+resultado.txt
+teste.txt
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc -[Kmain.c -o po[Krocessflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# GCC M[K[K[K=[K[K[Kgcc maihn.c =o processflow
+[?2004l
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[Kmaihn.c: No such file or directory
 compilation terminated.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task listar /bin/ls
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task listar /bin/ls
 token: task
 token: listar
 token: /bin/ls
@@ -2105,18 +2307,25 @@ programa: /bin/ls
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 20:18:24 -03 2026
+[?2004l
+Sun Aug 23 20:18:24 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoai[Kmi
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mprintf "task listar /bin/ls\nrun listar\ne[27m[7mx[27m[7mit\n" > teste.pf[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# printf "task listar /bin/ls\nrun listar\nexit\n" > teste.pf
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat teste.pf[27mcat teste.pf
-[?2004ltask listar /bin/ls
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mprintf "task listar /bin/ls\nrun listar\ne[27m[7mx[27m[7mit\n" > teste.pf[27m[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# printf "task listar /bin/ls\nrun listar\nexit\n" > teste.pf
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat teste.pf[27mcat teste.pf
+[?2004l
+task listar /bin/ls
 run listar
 exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow teste.pf[27m./processflow teste.pf
-[?2004ltask listar /bin/ls
+[?2004l
+task listar /bin/ls
 token: task
 token: listar
 token: /bin/ls
@@ -2135,20 +2344,35 @@ Processo Filho PID = 1853 Pai possui PID = 1852
 Makefile   evidencias.log  exemplo1.c  processflow   resultado.txt  teste.txt
 README.md  exemplo0.c	   main.c      processsflow  teste.pf
 exit
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# got st[K[K[K[K[K[K[7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'eviScript started on 2026-08-23 20:22:16-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="92" LINES="9"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# got st[K[K[K[K[K[K[7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004l
+Script started, output log file is 'eviScript started on 2026-08-23 20:22:16-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="92" LINES="9"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mdate[27m
-[7mwhoami[27m
-[7mpwd[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-whoami
-pwd
-[?2004lSun Aug 23 20:22:23 -03 2026
+
+[7mwhoami[27m
+
+[7mpwd[27m[A[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+
+whoami
+
+pwd
+[?2004l
+Sun Aug 23 20:22:23 -03 2026
 root
 /mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
-[7m./processflow teste.pf[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-./processflow teste.pf
-[?2004ltask listar /bin/ls
+
+[7m./processflow teste.pf[27m[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+
+./processflow teste.pf
+[?2004l
+task listar /bin/ls
 token: task
 token: listar
 token: /bin/ls
@@ -2168,48 +2392,73 @@ Makefile   evidencias.log  exemplo1.c  processflow   resultado.txt  teste.txt
 README.md  exemplo0.c	   main.c      processsflow  teste.pf
 exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mtask contar /usr/bin/wc -l[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask contar /usr/bin/wc -l
-[A
-[?2004lCommand 'task' not found, but can be installed with:
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask contar /usr/bin/wc -l
+
+[A
+[?2004l
+Command 'task' not found, but can be installed with:
 snap install task         # version v3.51.1, or
 apt  install taskwarrior  # version 2.6.2+dfsg-1
 See 'snap info task' for additional versions.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7minput contar teste.txt[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinput contar teste.txt
-[A
-[?2004lCommand 'input' not found, but can be installed with:
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinput contar teste.txt
+
+[A
+[?2004l
+Command 'input' not found, but can be installed with:
 apt install yagiuda
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mtask listar /bin/ls[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask listar /bin/ls
-[A
-[?2004lCommand 'task' not found, but can be installed with:
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask listar /bin/ls
+
+[A
+[?2004l
+Command 'task' not found, but can be installed with:
 snap install task         # version v3.51.1, or
 apt  install taskwarrior  # version 2.6.2+dfsg-1
 See 'snap info task' for additional versions.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7moutput listar resultado_evidencia.txt[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coutput listar resultado_evidencia.txt
-[A
-[?2004lCommand 'output' not found, but can be installed with:
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coutput listar resultado_evidencia.txt
+
+[A
+[?2004l
+Command 'output' not found, but can be installed with:
 apt install yagiuda
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mappend listar resultado_evidencia.txt[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cappend listar resultado_evidencia.txt
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
-[?2004lexit
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cappend listar resultado_evidencia.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+[?2004l
+exit
 
 Script done on 2026-08-23 20:24:03-03:00 [COMMAND_EXIT_CODE="127"]
 dencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mdate[27m
-[7mwhoami[27m
-[7mpwd[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-whoami
-pwd
-[?2004lSun Aug 23 20:22:23 -03 2026
+
+[7mwhoami[27m
+
+[7mpwd[27m[A[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+
+whoami
+
+pwd
+[?2004l
+Sun Aug 23 20:22:23 -03 2026
 root
 /mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
-[7m./processflow teste.pf[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-./processflow teste.pf
-[?2004ltask listar /bin/ls
+
+[7m./processflow teste.pf[27m[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+
+./processflow teste.pf
+[?2004l
+task listar /bin/ls
 token: task
 token: listar
 token: /bin/ls
@@ -2229,46 +2478,69 @@ Makefile   evidencias.log  exemplo1.c  processflow   resultado.txt  teste.txt
 README.md  exemplo0.c	   main.c      processsflow  teste.pf
 exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mtask contar /usr/bin/wc -l[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask contar /usr/bin/wc -l
-[A
-[?2004lCommand 'task' not found, but can be installed with:
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask contar /usr/bin/wc -l
+
+[A
+[?2004l
+Command 'task' not found, but can be installed with:
 snap install task         # version v3.51.1, or
 apt  install taskwarrior  # version 2.6.2+dfsg-1
 See 'snap info task' for additional versions.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7minput contar teste.txt[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinput contar teste.txt
-[A
-[?2004lCommand 'input' not found, but can be installed with:
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinput contar teste.txt
+
+[A
+[?2004l
+Command 'input' not found, but can be installed with:
 apt install yagiuda
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mtask listar /bin/ls[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask listar /bin/ls
-[A
-[?2004lCommand 'task' not found, but can be installed with:
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctask listar /bin/ls
+
+[A
+[?2004l
+Command 'task' not found, but can be installed with:
 snap install task         # version v3.51.1, or
 apt  install taskwarrior  # version 2.6.2+dfsg-1
 See 'snap info task' for additional versions.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7moutput listar resultado_evidencia.txt[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coutput listar resultado_evidencia.txt
-[A
-[?2004lCommand 'output' not found, but can be installed with:
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coutput listar resultado_evidencia.txt
+
+[A
+[?2004l
+Command 'output' not found, but can be installed with:
 apt install yagiuda
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mappend listar resultado_evidencia.txt[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cappend listar resultado_evidencia.txt
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
-[?2004lexit
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cappend listar resultado_evidencia.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+[?2004l
+exit
 Script done.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mdate[27m
-[7mwhoami[27m
-[7mpwd[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-whoami
-pwd
-[?2004lSun Aug 23 20:24:20 -03 2026
+
+[7mwhoami[27m
+
+[7mpwd[27m[A[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+
+whoami
+
+pwd
+[?2004l
+Sun Aug 23 20:24:20 -03 2026
 root
 /mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> task contar /usr/bin/wc -l
+[?2004l
+processflow> task contar /usr/bin/wc -l
 token: task
 token: contar
 token: /usr/bin/wc
@@ -2341,7 +2613,8 @@ Processo Filho PID = 1981 Pai possui PID = 1964
 12
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat resultado_evidencia.txt[27mcat resultado_evidencia.txt
-[?2004lMakefile
+[?2004l
+Makefile
 README.md
 evidencias.log
 exemplo0.c
@@ -2366,9 +2639,11 @@ resultado_evidencia.txt
 teste.pf
 teste.txt
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mworkdir /tmp[27mworkdir /tmp
-[?2004lworkdir: command not found
+[?2004l
+workdir: command not found
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> workdir /tmp
+[?2004l
+processflow> workdir /tmp
 token: workdir
 token: /tmp
 nome: /tmp
@@ -2385,15 +2660,22 @@ quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc maiScript started on 2026-08-23 20:24:14-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="92" LINES="9"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mdate[27m
-[7mwhoami[27m
-[7mpwd[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-whoami
-pwd
-[?2004lSun Aug 23 20:24:20 -03 2026
+
+[7mwhoami[27m
+
+[7mpwd[27m[A[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+
+whoami
+
+pwd
+[?2004l
+Sun Aug 23 20:24:20 -03 2026
 root
 /mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> task contar /usr/bin/wc -l
+[?2004l
+processflow> task contar /usr/bin/wc -l
 token: task
 token: contar
 token: /usr/bin/wc
@@ -2466,7 +2748,8 @@ Processo Filho PID = 1981 Pai possui PID = 1964
 12
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat resultado_evidencia.txt[27mcat resultado_evidencia.txt
-[?2004lMakefile
+[?2004l
+Makefile
 README.md
 evidencias.log
 exemplo0.c
@@ -2491,9 +2774,11 @@ resultado_evidencia.txt
 teste.pf
 teste.txt
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mworkdir /tmp[27mworkdir /tmp
-[?2004lworkdir: command not found
+[?2004l
+workdir: command not found
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> workdir /tmp
+[?2004l
+processflow> workdir /tmp
 token: workdir
 token: /tmp
 nome: /tmp
@@ -2509,18 +2794,26 @@ programa:
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJln.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+[?2004h]0;root@PCdeJln.c -o processflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 21:04:53 -03 2026
+[?2004l
+Sun Aug 23 21:04:53 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whom[Kami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> workdir /tmp
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004l
+processflow> workdir /tmp
 token: workdir
 token: /tmp
 nome: /tmp
@@ -2553,15 +2846,20 @@ Processo Filho PID = 2055 Pai possui PID = 2051
 /tmp
 processflow> exigt  t
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd[K[K[Kdate
-[?2004lSun Aug 23 22:20:58 -03 2026
+[?2004l
+Sun Aug 23 22:20:58 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:622:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
   622 |             [01;31m[KPosicaoEncontrada[m[K = -1;
       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
@@ -2572,18 +2870,28 @@ processflow> exigt  t
 [01m[Kmain.c:642:37:[m[K [01;31m[Kerror: [m[Klvalue required as increment operand
   642 |                     quantidadeDeJobs[01;31m[K++[m[K;
       |                                     [01;31m[K^~[m[K
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
 [?2004lia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 21:04:53 -03 2026
+[?2004l
+Sun Aug 23 21:04:53 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whom[Kami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> workdir /tmp
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004l
+processflow> workdir /tmp
 token: workdir
 token: /tmp
 nome: /tmp
@@ -2616,15 +2924,20 @@ Processo Filho PID = 2055 Pai possui PID = 2051
 /tmp
 processflow> exigt  t
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd[K[K[Kdate
-[?2004lSun Aug 23 22:20:58 -03 2026
+[?2004l
+Sun Aug 23 22:20:58 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:622:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
   622 |             [01;31m[KPosicaoEncontrada[m[K = -1;
       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
@@ -2635,17 +2948,27 @@ processflow> exigt  t
 [01m[Kmain.c:642:37:[m[K [01;31m[Kerror: [m[Klvalue required as increment operand
   642 |                     quantidadeDeJobs[01;31m[K++[m[K;
       |                                     [01;31m[K^~[m[K
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/AtiviScript started on 2026-08-23 21:04:44-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="92" LINES="9"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/AtiviScript started on 2026-08-23 21:04:44-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="92" LINES="9"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 21:04:53 -03 2026
+[?2004l
+Sun Aug 23 21:04:53 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whom[Kami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
-[?2004lprocessflow> workdir /tmp
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004l
+processflow> workdir /tmp
 token: workdir
 token: /tmp
 nome: /tmp
@@ -2678,15 +3001,20 @@ Processo Filho PID = 2055 Pai possui PID = 2051
 /tmp
 processflow> exigt  t
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd[K[K[Kdate
-[?2004lSun Aug 23 22:20:58 -03 2026
+[?2004l
+Sun Aug 23 22:20:58 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:622:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
   622 |             [01;31m[KPosicaoEncontrada[m[K = -1;
       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
@@ -2697,17 +3025,27 @@ processflow> exigt  t
 [01m[Kmain.c:642:37:[m[K [01;31m[Kerror: [m[Klvalue required as increment operand
   642 |                     quantidadeDeJobs[01;31m[K++[m[K;
       |                                     [01;31m[K^~[m[K
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task esperar /bin/sleep 10[ Script started on 2026-08-23 22:20:51-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="92" LINES="9"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task esperar /bin/sleep 10[ Script started on 2026-08-23 22:20:51-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="92" LINES="9"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd[K[K[Kdate
-[?2004lSun Aug 23 22:20:58 -03 2026
+[?2004l
+Sun Aug 23 22:20:58 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:622:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
   622 |             [01;31m[KPosicaoEncontrada[m[K = -1;
       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
@@ -2718,9 +3056,15 @@ processflow> exigt  t
 [01m[Kmain.c:642:37:[m[K [01;31m[Kerror: [m[Klvalue required as increment operand
   642 |                     quantidadeDeJobs[01;31m[K++[m[K;
       |                                     [01;31m[K^~[m[K
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task esperar /bin/sleep 10[ 
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task esperar /bin/sleep 10[ 
 token: task
 token: esperar
 token: /bin/sleep
@@ -2789,8 +3133,10 @@ nome: listar2
 programa: /bin/ps
 quantidades de argumentos: 0
 Processo Pai PID = 2112 Processo pai espera pelo Filho PID = 2116
-proces[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task esperar /bin/sleep 10[ 
+proces
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task esperar /bin/sleep 10[ 
 token: task
 token: esperar
 token: /bin/sleep
@@ -2867,17 +3213,25 @@ processflow> Processo Filho PID = 2116 Pai possui PID = 2112
    2116 pts/5    00:00:00 ps
 exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 22:45:11 -03 2026
+[?2004l
+Sun Aug 23 22:45:11 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
-[7m./processflow[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-./processflow
-[?2004lprocessflow> task esperar /bin/sleep 30
+
+[7m./processflow[27m[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+
+./processflow
+[?2004l
+processflow> task esperar /bin/sleep 30
 start esperar
 jobstoken: task
 token: esperar
@@ -2996,17 +3350,25 @@ processflow> Processo Filho PID = 2116 Pai possui PID = 2112
    2116 pts/5    00:00:00 ps
 exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 22:45:11 -03 2026
+[?2004l
+Sun Aug 23 22:45:11 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
-[7m./processflow[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-./processflow
-[?2004lprocessflow> task esperar /bin/sleep 30
+
+[7m./processflow[27m[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+
+./processflow
+[?2004l
+processflow> task esperar /bin/sleep 30
 start esperar
 jobstoken: task
 token: esperar
@@ -3056,7 +3418,8 @@ token: script
 token: -a
 token: evidencias.log
 nome: -a
-programa: /bin/sleepsflow> Processo Filho PID = 2116 Pai possui PID = 2112
+programa: /bin/sleep
+sflow> Processo Filho PID = 2116 Pai possui PID = 2112
     PID TTY          TIME CMD
    2082 pts/5    00:00:00 bash
    2112 pts/5    00:00:00 processflow
@@ -3064,17 +3427,25 @@ programa: /bin/sleepsflow> Processo Filho PID = 2116 Pai possui PID = 2112
    2116 pts/5    00:00:00 ps
 exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 22:45:11 -03 2026
+[?2004l
+Sun Aug 23 22:45:11 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
-[7m./processflow[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-./processflow
-[?2004lprocessflow> task esperar /bin/sleep 30
+
+[7m./processflow[27m[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+
+./processflow
+[?2004l
+processflow> task esperar /bin/sleep 30
 start esperar
 jobstoken: task
 token: esperar
@@ -3128,14 +3499,19 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 processflow> w exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004l
+Sun Aug 23 23:00:43 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task esperar /bin/sleep 20
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task esperar /bin/sleep 20
 start esperar
 jobstoken: task
 token: esperar
@@ -3167,15 +3543,22 @@ quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./proScript started on 2026-08-23 22:45:05-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="92" LINES="9"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
-[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 22:45:11 -03 2026
+[?2004l
+Sun Aug 23 22:45:11 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
-[7m./processflow[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
-./processflow
-[?2004lprocessflow> task esperar /bin/sleep 30
+
+[7m./processflow[27m[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+
+./processflow
+[?2004l
+processflow> task esperar /bin/sleep 30
 start esperar
 jobstoken: task
 token: esperar
@@ -3229,14 +3612,19 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 processflow> w exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004l
+Sun Aug 23 23:00:43 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task esperar /bin/sleep 20
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task esperar /bin/sleep 20
 start esperar
 jobstoken: task
 token: esperar
@@ -3267,7 +3655,8 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task demorado /bin/sleep 30
+[?2004l
+processflow> task demorado /bin/sleep 30
 start demorado
 jobstoken: task
 token: demorado
@@ -3294,14 +3683,19 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 processflow> w exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004l
+Sun Aug 23 23:00:43 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task esperar /bin/sleep 20
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task esperar /bin/sleep 20
 start esperar
 jobstoken: task
 token: esperar
@@ -3332,7 +3726,8 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task demorado /bin/sleep 30
+[?2004l
+processflow> task demorado /bin/sleep 30
 start demorado
 jobstoken: task
 token: demorado
@@ -3409,7 +3804,8 @@ quantidades de argumentos: 0
 2161
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./po[Krocessflow
-[?2004lprocessflow> task demorado2 /bin/sleep 60
+[?2004l
+processflow> task demorado2 /bin/sleep 60
 token: task
 token: demorado2
 token: /bin/sleep
@@ -3428,14 +3824,19 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 processflow> w exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004l
+Sun Aug 23 23:00:43 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task esperar /bin/sleep 20
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task esperar /bin/sleep 20
 start esperar
 jobstoken: task
 token: esperar
@@ -3466,7 +3867,8 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task demorado /bin/sleep 30
+[?2004l
+processflow> task demorado /bin/sleep 30
 start demorado
 jobstoken: task
 token: demorado
@@ -3543,7 +3945,8 @@ quantidades de argumentos: 0
 2161
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./po[Krocessflow
-[?2004lprocessflow> task demorado2 /bin/sleep 60
+[?2004l
+processflow> task demorado2 /bin/sleep 60
 token: task
 token: demorado2
 token: /bin/sleep
@@ -3559,14 +3962,19 @@ nome: dem
 quantidades de argumentos: 0
 processflow> w exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004l
+Sun Aug 23 23:00:43 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task esperar /bin/sleep 20
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task esperar /bin/sleep 20
 start esperar
 jobstoken: task
 token: esperar
@@ -3597,7 +4005,8 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task demorado /bin/sleep 30
+[?2004l
+processflow> task demorado /bin/sleep 30
 start demorado
 jobstoken: task
 token: demorado
@@ -3674,7 +4083,8 @@ quantidades de argumentos: 0
 2161
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./po[Krocessflow
-[?2004lprocessflow> task demorado2 /bin/sleep 60
+[?2004l
+processflow> task demorado2 /bin/sleep 60
 token: task
 token: demorado2
 token: /bin/sleep
@@ -3691,12 +4101,16 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 Processo Pai PID = 2162 Processo pai nao espera pelo Filho PID = 21Script started on 2026-08-23 23:00:40-03:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="92" LINES="9"]
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
-[?2004lroot
+[?2004l
+root
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
-[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004l
+Sun Aug 23 23:00:43 -03 2026
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task esperar /bin/sleep 20
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004l
+processflow> task esperar /bin/sleep 20
 start esperar
 jobstoken: task
 token: esperar
@@ -3727,7 +4141,8 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
-[?2004lprocessflow> task demorado /bin/sleep 30
+[?2004l
+processflow> task demorado /bin/sleep 30
 start demorado
 jobstoken: task
 token: demorado
@@ -3804,7 +4219,8 @@ quantidades de argumentos: 0
 2161
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./po[Krocessflow
-[?2004lprocessflow> task demorado2 /bin/sleep 60
+[?2004l
+processflow> task demorado2 /bin/sleep 60
 token: task
 token: demorado2
 token: /bin/sleep
@@ -3829,7 +4245,8 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@Pcessflow
-[?2004lprocessflow> task demorado /bin/sleep 30
+[?2004l
+processflow> task demorado /bin/sleep 30
 start demorado
 jobstoken: task
 token: demorado
@@ -3906,7 +4323,8 @@ quantidades de argumentos: 0
 2161
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./po[Krocessflow
-[?2004lprocessflow> task demorado2 /bin/sleep 60
+[?2004l
+processflow> task demorado2 /bin/sleep 60
 token: task
 token: demorado2
 token: /bin/sleep
@@ -3931,8 +4349,10 @@ programa: /bin/sleep
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pro[K[K[Ki[Kgcc p[Kmain.c -o processflow
-[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processfo[Klow
-[?2004lprocessflow> task testeWait /bin/sleep 20
+[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processfo[Klow
+[?2004l
+processflow> task testeWait /bin/sleep 20
 start testeWaittoken: task
 token: testeWait
 token: /bin/sleep
@@ -3983,4 +4403,553 @@ token: 2177
 nome: 2177
 programa: /bin/sleep
 quantidades de argumentos: 0
-p
+pScript started on 2026-08-24 18:40:32-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="70" LINES="14"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004l
+root
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004l
+Mon Aug 24 18:40:36 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l
+/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcd /mnt/c/Users/juli[27m[7ma[27m[7m/Atividade_01_IS [27m
+
+[7mmake clean[27m
+
+[7mmake[27m[A[A[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# cd /mnt/c/Users/julia/Atividade_01_IS
+
+make clean
+
+make
+[?2004l
+Command 'make' not found, but can be installed with:
+apt install make        # version 4.3-4.1build1, or
+apt install make-guile  # version 4.3-4.1build1
+Command 'make' not found, but can be installed with:
+apt install make        # version 4.3-4.1build1, or
+apt install make-guile  # version 4.3-4.1build1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# apt update
+[?2004l
+[33m
+0% [Working][0m[33m
+0% [Waiting for headers] [Waiting for headers][0m
+                                              
+Get:1 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+[33m
+0% [Waiting for headers] [1 InRelease 12.8 kB/126 kB 10%][0m
+                                                         
+Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+[33m
+0% [Waiting for headers] [1 InRelease 14.1 kB/126 kB 11%][0m[33m
+0% [Waiting for headers] [1 InRelease 14.1 kB/126 kB 11%][0m
+                                                         
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+[33m
+0% [3 InRelease 555 B/126 kB 0%] [1 InRelease 43.1 kB/126 kB 34%][0m[33m
+                                                                 
+0% [3 InRelease 47.4 kB/126 kB 38%][0m[33m
+0% [3 InRelease 47.4 kB/126 kB 38%][0m
+                                   
+Get:4 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [969 kB]
+[33m
+0% [3 InRelease 87.5 kB/126 kB 69%] [4 Packages 6708 B/969 kB 1%][0ma[33m
+                                                                 
+0% [Waiting for headers] [4 Packages 128 kB/969 kB 13%][0m[33m
+0% [Waiting for headers] [4 Packages 210 kB/969 kB 22%][0mpt
+                                                       
+Get:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+[33m
+0% [5 InRelease 4989 B/126 kB 4%] [4 Packages 375 kB/969 kB 39%][0m[33m
+                                                                
+0% [4 Packages 753 kB/969 kB 78%][0m[33m
+28% [Waiting for headers] [4 Packages 819 kB/969 kB 85%][0m
+                                                        
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1229 kB]
+[33m
+28% [6 Packages 6708 B/1229 kB 1%] [4 Packages 819 kB/969 kB 85%][0m[33m
+                                                                 
+30% [6 Packages 102 kB/1229 kB 8%][0m[33m
+30% [4 Packages store 0 B] [6 Packages 102 kB/1229 kB 8%] [Waiting fo[0m 
+                                                                     
+Get:7 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [206 kB]
+[33m
+31% [4 Packages store 0 B] [6 Packages 233 kB/1229 kB 19%] [7 Transla[0m[33m
+33% [6 Packages 273 kB/1229 kB 22%] [7 Translation-en 126 kB/206 kB 6[0m[33m
+                                                                     
+34% [6 Packages 283 kB/1229 kB 23%] [Waiting for headers][0m
+                                                         
+Get:8 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [46.4 kB]
+[33m
+34% [6 Packages 283 kB/1229 kB 23%] [8 Components-amd64 4982 B/46.4 k[0m[33m
+34% [7 Translation-en store 0 B] [6 Packages 283 kB/1229 kB 23%] [8 C[0m[33m
+35% [7 Translation-en store 0 B] [6 Packages 315 kB/1229 kB 26%] [Wai[0m
+                                                                     
+Get:9 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1202 kB]
+[33m
+35% [7 Translation-en store 0 B] [6 Packages 315 kB/1229 kB 26%] [9 P[0m[33m
+                                                                     
+36% [6 Packages 322 kB/1229 kB 26%] [9 Packages 91.8 kB/1202 kB 8%][0m[33m
+36% [8 Components-amd64 store 0 B] [6 Packages 322 kB/1229 kB 26%] [9[0m[33m
+                                                                     
+36% [6 Packages 322 kB/1229 kB 26%] [9 Packages 130 kB/1202 kB 11%][0m  [33m
+46% [6 Packages 786 kB/1229 kB 64%] [9 Packages 773 kB/1202 kB 64%][0m[33m
+                                                                   
+52% [6 Packages 1022 kB/1229 kB 83%] [Waiting for headers][0m[33m
+52% [9 Packages store 0 B] [6 Packages 1022 kB/1229 kB 83%] [Waiting [0m
+                                                                     
+Get:10 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [240 kB]
+[33m
+53% [9 Packages store 0 B] [6 Packages 1022 kB/1229 kB 83%] [10 Trans[0m[33m
+56% [9 Packages store 0 B] [6 Packages 1155 kB/1229 kB 94%] [Waiting [0m
+                                                                     
+Get:11 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
+[33m
+56% [9 Packages store 0 B] [6 Packages 1155 kB/1229 kB 94%] [11 Compo[0m[33m
+56% [9 Packages store 0 B] [6 Packages 1155 kB/1229 kB 94%] [Waiting [0m
+                                                                     
+Get:12 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1388 kB]
+[33m
+57% [9 Packages store 0 B] [6 Packages 1155 kB/1229 kB 94%] [12 Packa[0m[33m
+58% [9 Packages store 0 B] [Waiting for headers] [12 Packages 87.1 kB[0m
+                                                                     
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main Translation-en [286 kB]
+[33m
+59% [9 Packages store 0 B] [13 Translation-en 131 kB/286 kB 46%] [12 [0m[33m
+61% [13 Translation-en 181 kB/286 kB 63%] [12 Packages 232 kB/1388 kB[0m[33m
+61% [10 Translation-en store 0 B] [13 Translation-en 181 kB/286 kB 63[0m[33m
+61% [13 Translation-en 181 kB/286 kB 63%] [12 Packages 232 kB/1388 kB[0m[33m
+61% [11 Components-amd64 store 0 B] [13 Translation-en 181 kB/286 kB [0m[33m
+61% [13 Translation-en 181 kB/286 kB 63%] [12 Packages 232 kB/1388 kB[0m[33m
+61% [6 Packages store 0 B] [13 Translation-en 181 kB/286 kB 63%] [12 [0m[33m
+62% [6 Packages store 0 B] [Waiting for headers] [12 Packages 232 kB/[0m
+                                                                     
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
+[33m
+63% [6 Packages store 0 B] [14 Components-amd64 62.9 kB/181 kB 35%] [[0m[33m
+71% [14 Components-amd64 173 kB/181 kB 96%] [12 Packages 1038 kB/1388[0m[33m
+71% [13 Translation-en store 0 B] [14 Components-amd64 173 kB/181 kB [0m[33m
+72% [13 Translation-en store 0 B] [Waiting for headers] [12 Packages [0m
+                                                                     
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
+[33m
+72% [13 Translation-en store 0 B] [15 Components-amd64 9053 B/388 kB [0m[33m
+72% [15 Components-amd64 9053 B/388 kB 2%] [12 Packages 1056 kB/1388 [0m[33m
+72% [14 Components-amd64 store 0 B] [15 Components-amd64 9053 B/388 k[0m[33m
+73% [15 Components-amd64 26.2 kB/388 kB 7%] [12 Packages 1152 kB/1388[0m[33m
+                                                                     
+76% [15 Components-amd64 97.5 kB/388 kB 25%] [Waiting for headers][0m
+                                                                  
+Get:16 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [320 kB]
+[33m
+76% [15 Components-amd64 97.5 kB/388 kB 25%] [16 Translation-en 28.4 [0m[33m
+76% [12 Packages store 0 B] [15 Components-amd64 97.5 kB/388 kB 25%] [0m[33m
+80% [12 Packages store 0 B] [15 Components-amd64 190 kB/388 kB 49%] [[0m
+                                                                     
+Get:17 http://security.ubuntu.com/ubuntu noble-security/multiverse Translation-en [11.1 kB]
+[33m
+80% [12 Packages store 0 B] [15 Components-amd64 190 kB/388 kB 49%] [[0m[33m
+                                                                     
+80% [12 Packages store 0 B] [15 Components-amd64 207 kB/388 kB 53%][0m[33m
+                                                                   
+82% [12 Packages store 0 B] [Waiting for headers][0m
+                                                 
+Get:18 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1486 kB]
+[33m
+82% [12 Packages store 0 B] [18 Packages 73.1 kB/1486 kB 5%][0m[33m
+                                                            
+87% [18 Packages 597 kB/1486 kB 40%][0m[33m
+87% [16 Translation-en store 0 B] [18 Packages 597 kB/1486 kB 40%][0m[33m
+                                                                  
+89% [18 Packages 733 kB/1486 kB 49%][0m[33m
+89% [17 Translation-en store 0 B] [18 Packages 733 kB/1486 kB 49%][0m[33m
+                                                                  
+89% [18 Packages 752 kB/1486 kB 51%][0m[33m
+89% [15 Components-amd64 store 0 B] [18 Packages 752 kB/1486 kB 51%][0m[33m
+                                                                    
+91% [18 Packages 902 kB/1486 kB 61%][0m[33m
+                                    
+96% [Waiting for headers][0m
+                         
+Get:19 http://archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [339 kB]
+[33m
+97% [19 Translation-en 70.9 kB/339 kB 21%][0m[33m
+98% [18 Packages store 0 B] [19 Translation-en 202 kB/339 kB 60%][0m[33m
+                                                                 
+99% [18 Packages store 0 B] [Waiting for headers][0m
+                                                 
+Get:20 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+[33m
+99% [18 Packages store 0 B] [Waiting for headers][0m
+                                                 
+Get:21 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5768 B]
+[33m
+99% [18 Packages store 0 B] [21 Components-amd64 5768 B/5768 B 100%][0m[33m
+                                                                    
+99% [18 Packages store 0 B][0m
+                           
+Get:22 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
+[33m
+99% [18 Packages store 0 B] [22 Components-amd64 8114 B/12.6 kB 64%][0m[33m
+                                                                    
+99% [18 Packages store 0 B][0m[33m
+                           
+99% [Working][0m[33m
+99% [19 Translation-en store 0 B][0m[33m
+                                 
+99% [Working][0m[33m
+99% [20 Components-amd64 store 0 B][0m[33m
+                                   
+100% [Working][0m[33m
+100% [21 Components-amd64 store 0 B][0m[33m
+                                    
+100% [Working][0m[33m
+100% [22 Components-amd64 store 0 B][0m[33m
+                                    
+100% [Working][0m
+              
+Fetched 8768 kB in 5s (1835 kB/s)
+apt
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+ 
+Reading package lists... 43%
+
+Reading package lists... 43%
+
+Reading package lists... 59%
+
+Reading package lists... 59%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+i
+Reading package lists... 61%
+
+Reading package lists... 61%
+
+Reading package lists... 61%
+
+Reading package lists... 61%
+
+Reading package lists... 64%
+
+Reading package lists... 64%
+
+Reading package lists... 66%
+
+Reading package lists... 66%
+n
+Reading package lists... 72%
+
+Reading package lists... 72%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+s
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+t
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+a
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+83 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# apt insta[K[K[K[K[K[K[K[K[Kapt install make --y 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ky
+[?2004l
+[1;31mE: [0mCommand line option --y is not understood in combination with the other options[0m
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mapt install make -y[27mapt install make -y
+[?2004l
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+Suggested packages:
+  make-doc
+The following NEW packages will be installed:
+  make
+0 upgraded, 1 newly installed, 0 to remove and 83 not upgraded.
+Need to get 180 kB of archives.
+After this operation, 414 kB of additional disk space will be used.
+[33m
+0% [Working][0m
+            
+Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 make amd64 4.3-4.1build2 [180 kB]
+[33m
+5% [1 make 10.9 kB/180 kB 6%][0m[33m
+                             
+100% [Working][0m
+              
+Fetched 180 kB in 1s (338 kB/s)
+
+7[0;13r8[1ASelecting previously unselected package make.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 45067 files and directories currently installed.)
+Preparing to unpack .../make_4.3-4.1build2_amd64.deb ...
+7[14;0f[42m[30mProgress: [  0%][49m[39m [................................................] 87[14;0f[42m[30mProgress: [ 20%][49m[39m [#########.......................................] 8Unpacking make (4.3-4.1build2) ...
+7[14;0f[42m[30mProgress: [ 40%][49m[39m [###################.............................] 8Setting up make (4.3-4.1build2) ...
+7[14;0f[42m[30mProgress: [ 60%][49m[39m [############################....................] 87[14;0f[42m[30mProgress: [ 80%][49m[39m [######################################..........] 8Processing triggers for man-db (2.12.0-4build2) ...
+
+7[0;14r8[1A[J[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcd /mnt/c/Users/juli[27m[7ma[27m[7m/Atividade_01_IS [27m
+
+[7mmake clean[27m
+
+[7mmake[27m[A[A[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# cd /mnt/c/Users/julia/Atividade_01_IS
+
+make clean
+
+make
+[?2004l
+rm -f processflow
+gcc -Wall -Wextra main.c -o processflow
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mmake clean[27m
+
+[7mmake[27m
+
+[7mrm -f processflow[27m
+
+[7mgcc -Wall -Wextra main.c -o processflow[27m[A[A[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# make clean
+
+make
+
+rm -f processflow
+
+gcc -Wall -Wextra main.c -o processflow
+[?2004l
+rm -f processflow
+gcc -Wall -Wextra main.c -o processflow
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# 
+[K
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m
+
+[7mprocessflow> task listar /bin/ls[27m
+
+[7mprocessflow> run listar[27m
+
+[7m...[27m
+
+[7mprocessflow> exit[27m[A[A[A[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+
+processflow> task listar /bin/ls
+
+processflow> run listar
+
+...
+
+processflow> exit
+[?2004l
+processflow> clena  and 
+token: clean
+nome: 
+programa: 
+quantidades de argumentos: 0
+processflow> exit
+clprocessflow: command not found
+eprocessflow: command not found
+an...: command not found
+processflow: command not found
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# clean[K[K[K[K[Kclean
+[?2004l
+Command 'clean' not found, did you mean:
+  command 'pclean' from deb pbuilder-scripts (22)
+  command 'clear' from deb ncurses-bin (6.4+20240113-1ubuntu2.1)
+  command 'lean' from deb elan (3.1.0-1ubuntu0.1)
+  command 'uclean' from deb svn-buildpackage (0.8.8)
+Try: apt install <deb name>
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m
+
+[7mprocessflow> task listar /bin/ls[27m
+
+[7mprocessflow> run listar[27m
+
+[7m...[27m
+
+[7mprocessflow> exit[27m[A[A[A[A
+]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+
+processflow> task listar /bin/ls
+
+processflow> run listar
+
+...
+
+processflow> exit
+[?2004l
+processflow> ./processflow             exo it
+processflow: command not found
+processflow: command not found
+...: command not found
+processflow: command not found
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./processflow
+
+[A
+[?2004l
+processflow> task listar /bin/ls
+token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+processflow> run listar
+token: run
+token: listar
+tarefa na posicao 0
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+P
