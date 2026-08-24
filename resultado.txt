@@ -1,30 +1,32 @@
-Makefile
-README.md
-evidencias.log
-exemplo0.c
-exemplo1.c
-main.c
-processflow
-processsflow
-resultado.txt
-teste.txt
-Makefile
-README.md
-evidencias.log
-exemplo0.c
-exemplo1.c
-main.c
-processflow
-processsflow
-resultado.txt
-teste.txt
-Makefile
-README.md
-evidencias.log
-exemplo0.c
-exemplo1.c
-main.c
-processflow
-processsflow
-resultado.txt
-teste.txt
+total 304
+-rwxrwxrwx 1 root root    195 Aug 24 18:42 Makefile
+-rwxrwxrwx 1 root root     67 Aug 19 19:21 README.md
+-rwxrwxrwx 1 root root 189802 Aug 24 20:33 evidencias.log
+-rwxrwxrwx 1 root root  16384 Aug 19 21:24 exemplo0.c
+-rwxrwxrwx 1 root root  16392 Aug 19 22:44 exemplo1.c
+-rwxrwxrwx 1 root root      0 Aug 24 19:21 exit
+-rwxrwxrwx 1 root root  28374 Aug 24 20:28 main.c
+-rwxrwxrwx 1 root root  25200 Aug 24 20:32 processflow
+-rwxrwxrwx 1 root root  16648 Aug 21 00:21 processsflow
+-rwxrwxrwx 1 root root      0 Aug 24 20:34 resultado.txt
+-rwxrwxrwx 1 root root    290 Aug 23 20:25 resultado_evidencia.txt
+-rwxrwxrwx 1 root root      0 Aug 24 19:21 run
+-rwxrwxrwx 1 root root      0 Aug 24 19:21 task
+-rwxrwxrwx 1 root root     36 Aug 23 20:19 teste.pf
+-rwxrwxrwx 1 root root     23 Aug 23 17:30 teste.txt
+total 308
+-rwxrwxrwx 1 root root    195 Aug 24 18:42 Makefile
+-rwxrwxrwx 1 root root     67 Aug 19 19:21 README.md
+-rwxrwxrwx 1 root root 189802 Aug 24 20:33 evidencias.log
+-rwxrwxrwx 1 root root  16384 Aug 19 21:24 exemplo0.c
+-rwxrwxrwx 1 root root  16392 Aug 19 22:44 exemplo1.c
+-rwxrwxrwx 1 root root      0 Aug 24 19:21 exit
+-rwxrwxrwx 1 root root  28374 Aug 24 20:28 main.c
+-rwxrwxrwx 1 root root  25200 Aug 24 20:32 processflow
+-rwxrwxrwx 1 root root  16648 Aug 21 00:21 processsflow
+-rwxrwxrwx 1 root root    814 Aug 24 20:34 resultado.txt
+-rwxrwxrwx 1 root root    290 Aug 23 20:25 resultado_evidencia.txt
+-rwxrwxrwx 1 root root      0 Aug 24 19:21 run
+-rwxrwxrwx 1 root root      0 Aug 24 19:21 task
+-rwxrwxrwx 1 root root     36 Aug 23 20:19 teste.pf
+-rwxrwxrwx 1 root root     23 Aug 23 17:30 teste.txt

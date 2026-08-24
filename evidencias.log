@@ -4952,4 +4952,88 @@ tarefa na posicao 0
 nome: listar
 programa: /bin/ls
 quantidades de argumentos: 0
-P
+Processo Pai PID = 1429 Processo pai espera pelo Filho PID = 1434
+Processo Filho PID = 1434 Pai possui PID = 1429
+Makefile  README.md  evidencias.log  exemplo0.c  exemplo1.c  exit  main.c  processflow	processsflow  resultado.txt  resultado_evidencia.txt  run  task  teste.pf  teste.txt
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow arquiv[27m[7mo[27m[7m1.pf arquivo2.pf[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow arquivo1.pf arquivo2.pf
+[?2004lchamou argumentos demais
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task     listar     /bin/ls
+run token: task
+token: listar
+token: /bin/ls
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+     listar
+exitprocessflow> token: run
+token: listar
+tarefa na posicao 0
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1467 Processo pai espera pelo Filho PID = 1468
+Processo Filho PID = 1468 Pai possui PID = 1467
+Makefile	exemplo1.c   processsflow	      task
+README.md	exit	     resultado.txt	      teste.pf
+evidencias.log	main.c	     resultado_evidencia.txt  teste.txt
+exemplo0.c	processflow  run
+processflow> s     exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mmake clean[27m
+[7mmake[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# make clean
+make
+[?2004lrm -f processflow
+gcc -Wall -Wextra main.c -o processflow
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+token: task
+token: listar
+token: /bin/ls
+token: -l
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 1
+argumento(s)[0]: -l
+processflow> run listar
+token: run
+token: listar
+tarefa na posicao 0
+nome: listar
+programa: /bin/ls
+quantidades de argumentos: 0
+Processo Pai PID = 1848 Processo pai espera pelo Filho PID = 1851
+Processo Filho PID = 1851 Pai possui PID = 1848
+total 304
+-rwxrwxrwx 1 root root    195 Aug 24 18:42 Makefile
+-rwxrwxrwx 1 root root     67 Aug 19 19:21 README.md
+-rwxrwxrwx 1 root root 185706 Aug 24 19:49 evidencias.log
+-rwxrwxrwx 1 root root  16384 Aug 19 21:24 exemplo0.c
+-rwxrwxrwx 1 root root  16392 Aug 19 22:44 exemplo1.c
+-rwxrwxrwx 1 root root      0 Aug 24 19:21 exit
+-rwxrwxrwx 1 root root  28374 Aug 24 20:28 main.c
+-rwxrwxrwx 1 root root  25200 Aug 24 20:32 processflow
+-rwxrwxrwx 1 root root  16648 Aug 21 00:21 processsflow
+-rwxrwxrwx 1 root root    336 Aug 23 18:00 resultado.txt
+-rwxrwxrwx 1 root root    290 Aug 23 20:25 resultado_evidencia.txt
+-rwxrwxrwx 1 root root      0 Aug 24 19:21 run
+-rwxrwxrwx 1 root root      0 Aug 24 19:21 task
+-rwxrwxrwx 1 root root     36 Aug 23 20:19 teste.pf
+-rwxrwxrwx 1 root root     23 Aug 23 17:30 teste.txt
+processflow> task um /bin/echo UM
+token: task
+token: um
+token: /bin/echo
+token: UM
+nome: um
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: UM
+processflow> task dois /bin/echo DOIS
+token: task
+token: dois
+token: /bin/echo
+token: DOIS
+nome: dois
+programa: /bin/echo
+quantidade

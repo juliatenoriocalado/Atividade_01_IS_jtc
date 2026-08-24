@@ -38,7 +38,7 @@ int main(int argc, char *argv[]){
     pid_t background[30];
     int modoJobs = 0;
     int modoWait = 0;
-    pid_t pidProcurado = 0;
+    int jobIdProcurado = 0;
 
     if (argc == 2){
         arquivoWorkflow = fopen(argv[1], "r"); //r abrir arquivo p leitura
@@ -101,7 +101,7 @@ int main(int argc, char *argv[]){
             modoStart = 0;
             modoJobs = 0;
             modoWait = 0;
-            pidProcurado = 0;
+            jobIdProcurado = 0;
 
             int contadorDeEntradas = 0;
 
@@ -166,7 +166,7 @@ int main(int argc, char *argv[]){
                     }if (modoWorkDir == 1){
                         strcpy(diretorioWorkDir,  ponteiroEntradaSerQuebrada);
                     }if (modoWait == 1){
-                        pidProcurado = atoi(ponteiroEntradaSerQuebrada);
+                        jobIdProcurado = atoi(ponteiroEntradaSerQuebrada);
                     }
                     
                 }
@@ -628,6 +628,7 @@ int main(int argc, char *argv[]){
                     //Estamos no processo pai
                     printf("Processo Pai PID = %d Processo pai nao espera pelo Filho PID = %d\n", getpid(), pid);
                     background[quantidadeDeJobs] = pid;
+                    printf("[%d] %d\n", quantidadeDeJobs + 1, pid);
                     quantidadeDeJobs++;
 
                 }else{ //Senão estou no processo filho
@@ -656,12 +657,17 @@ int main(int argc, char *argv[]){
         
         if (modoJobs){
             for (int i=0; i<quantidadeDeJobs; i++){
-                printf("%d\n", background[i]);
+                printf("[%d] %d\n", i + 1, background[i]);
             }
         }
 
         if (modoWait){
-            waitpid(pidProcurado, NULL, 0);
+            if (jobIdProcurado < 1 || jobIdProcurado > quantidadeDeJobs){
+                printf("job inexistente\n");
+            }
+            else{
+                waitpid(background[jobIdProcurado - 1], NULL, 0);
+            }
         }
 
                 if (modoWorkDir){
