@@ -33,6 +33,12 @@ int main(int argc, char *argv[]){
     int modoWorkDir = 0;
     char diretorioWorkDir[30]; 
     char buffer[1024]; //criação de um buffer (array de caracteres) com 1024 caracteres para armazenas o diretori ode trabalho atual
+    int modoStart = 0;
+    int quantidadeDeJobs = 0;
+    pid_t background[30];
+    int modoJobs = 0;
+    int modoWait = 0;
+    pid_t pidProcurado = 0;
 
     if (argc == 2){
         arquivoWorkflow = fopen(argv[1], "r"); //r abrir arquivo p leitura
@@ -92,6 +98,10 @@ int main(int argc, char *argv[]){
             ModoInput = 0;
             ModoOutput = 0;
             modoWorkDir = 0;
+            modoStart = 0;
+            modoJobs = 0;
+            modoWait = 0;
+            pidProcurado = 0;
 
             int contadorDeEntradas = 0;
 
@@ -131,6 +141,18 @@ int main(int argc, char *argv[]){
                         modoWorkDir = 1;
                     }
 
+                    if (strcmp(ponteiroEntradaSerQuebrada, "start") == 0){
+                        modoStart = 1;
+                    }
+
+                    if (strcmp(ponteiroEntradaSerQuebrada, "jobs") == 0){
+                        modoJobs = 1;
+                    }
+
+                    if (strcmp(ponteiroEntradaSerQuebrada, "wait") == 0){
+                        modoWait = 1;
+                    }
+
                 }
 
                 if (contadorDeEntradas == 1){
@@ -143,6 +165,8 @@ int main(int argc, char *argv[]){
                         modoPipe = 1;
                     }if (modoWorkDir == 1){
                         strcpy(diretorioWorkDir,  ponteiroEntradaSerQuebrada);
+                    }if (modoWait == 1){
+                        pidProcurado = atoi(ponteiroEntradaSerQuebrada);
                     }
                     
                 }
@@ -581,9 +605,66 @@ int main(int argc, char *argv[]){
                    }
                 }
             }   
-        }  
+     
+        if (modoStart){     
 
-        if (modoWorkDir){
+            PosicaoEncontrada = -1;
+            
+            for (int i=0; i<quantidadeDeTarefas; i++){
+                if (strcmp(tarefas[i].nome, ComandoAtual.nome) == 0){
+                    PosicaoEncontrada = i;
+                }
+            }    
+
+            if (PosicaoEncontrada != -1){
+                pid_t pid = fork(); //O retorno da função fork corresponde ao comportamento ocorrido 
+
+                if (pid < 0){
+                    perror("Fork falhou.");
+                    exit(1); //Encerrar processo atual
+                } 
+                
+                if (pid > 0){
+                    //Estamos no processo pai
+                    printf("Processo Pai PID = %d Processo pai nao espera pelo Filho PID = %d\n", getpid(), pid);
+                    background[quantidadeDeJobs] = pid;
+                    quantidadeDeJobs++;
+
+                }else{ //Senão estou no processo filho
+
+                    printf("Processo Filho PID = %d Pai possui PID = %d\n", getpid(), getppid()); //getppid conseguir PID do processo pai
+                    sleep(5); //filho dormindo
+
+                    //com um l: argumentos separados com virgula (passa diretamente), com v: vetor de strings (se cria, voce gera), p: permite procurar o executável nos diretórios configurados na variável PATH
+                    char *args[12];
+                    args[0] = tarefas[PosicaoEncontrada].programa;
+
+                    for (int i=0; i < tarefas[PosicaoEncontrada].quantidadeDeArgumentos; i++){
+                        args[i + 1] = tarefas[PosicaoEncontrada].argumentos[i];                                   
+                    }
+
+                    args[tarefas[PosicaoEncontrada].quantidadeDeArgumentos + 1] = NULL;
+                    execvp(args[0], args); //execvp diz : execute ./TestandoExec usando esse vetor de argumentos
+
+                    perror("o exec falhou.");
+                    exit(1); //encerra o processo filho
+                
+                    //exec vai (substituir o processo filho pelo processo chamado exec) -> se o exec funcionar, tudo o que estiver depois do filho nçao será executado 
+                }
+            }
+        } 
+        
+        if (modoJobs){
+            for (int i=0; i<quantidadeDeJobs; i++){
+                printf("%d\n", background[i]);
+            }
+        }
+
+        if (modoWait){
+            waitpid(pidProcurado, NULL, 0);
+        }
+
+                if (modoWorkDir){
             if (getcwd(buffer, 1024) == NULL){
                 printf("deu erro ao tentar trocar de diretorio\n");
                 exit(1);
@@ -608,8 +689,8 @@ int main(int argc, char *argv[]){
                 }
             }    
         }
-
-    } 
+    }
+}  
 
     return 0;
 }

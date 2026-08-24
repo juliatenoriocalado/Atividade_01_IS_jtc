@@ -2509,4 +2509,1478 @@ programa:
 quantidades de argumentos: 0
 processflow> exit
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
-[?2004l[?2004h]0;root@PCdeJl
+[?2004l[?2004h]0;root@PCdeJln.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 21:04:53 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whom[Kami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> workdir /tmp
+token: workdir
+token: /tmp
+nome: /tmp
+programa: 
+quantidades de argumentos: 0
+diretorio de trabalho atual: 
+
+/mnt/c/Users/julia/Atividade_01_IS
+
+diretorio de trabalho atual: 
+
+/tmp
+
+processflow> task onde /bin/pwd
+token: task
+token: onde
+token: /bin/pwd
+nome: onde
+programa: /bin/pwd
+quantidades de argumentos: 0
+processflow> run onde
+token: run
+token: onde
+tarefa na posicao 0
+nome: onde
+programa: /bin/pwd
+quantidades de argumentos: 0
+Processo Pai PID = 2051 Processo pai espera pelo Filho PID = 2055
+Processo Filho PID = 2055 Pai possui PID = 2051
+/tmp
+processflow> exigt  t
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd[K[K[Kdate
+[?2004lSun Aug 23 22:20:58 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:622:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
+  622 |             [01;31m[KPosicaoEncontrada[m[K = -1;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:622:13:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kmain.c:625:45:[m[K [01;31m[Kerror: [m[K‘[01m[KComandoAtual[m[K’ undeclared (first use in this function)
+  625 |                 if (strcmp(tarefas[i].nome, [01;31m[KComandoAtual[m[K.nome) == 0){
+      |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[Kmain.c:642:37:[m[K [01;31m[Kerror: [m[Klvalue required as increment operand
+  642 |                     quantidadeDeJobs[01;31m[K++[m[K;
+      |                                     [01;31m[K^~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004lia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 21:04:53 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whom[Kami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> workdir /tmp
+token: workdir
+token: /tmp
+nome: /tmp
+programa: 
+quantidades de argumentos: 0
+diretorio de trabalho atual: 
+
+/mnt/c/Users/julia/Atividade_01_IS
+
+diretorio de trabalho atual: 
+
+/tmp
+
+processflow> task onde /bin/pwd
+token: task
+token: onde
+token: /bin/pwd
+nome: onde
+programa: /bin/pwd
+quantidades de argumentos: 0
+processflow> run onde
+token: run
+token: onde
+tarefa na posicao 0
+nome: onde
+programa: /bin/pwd
+quantidades de argumentos: 0
+Processo Pai PID = 2051 Processo pai espera pelo Filho PID = 2055
+Processo Filho PID = 2055 Pai possui PID = 2051
+/tmp
+processflow> exigt  t
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd[K[K[Kdate
+[?2004lSun Aug 23 22:20:58 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:622:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
+  622 |             [01;31m[KPosicaoEncontrada[m[K = -1;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:622:13:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kmain.c:625:45:[m[K [01;31m[Kerror: [m[K‘[01m[KComandoAtual[m[K’ undeclared (first use in this function)
+  625 |                 if (strcmp(tarefas[i].nome, [01;31m[KComandoAtual[m[K.nome) == 0){
+      |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[Kmain.c:642:37:[m[K [01;31m[Kerror: [m[Klvalue required as increment operand
+  642 |                     quantidadeDeJobs[01;31m[K++[m[K;
+      |                                     [01;31m[K^~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/AtiviScript started on 2026-08-23 21:04:44-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="92" LINES="9"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 21:04:53 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whom[Kami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7m./processflow[27m./processflow
+[?2004lprocessflow> workdir /tmp
+token: workdir
+token: /tmp
+nome: /tmp
+programa: 
+quantidades de argumentos: 0
+diretorio de trabalho atual: 
+
+/mnt/c/Users/julia/Atividade_01_IS
+
+diretorio de trabalho atual: 
+
+/tmp
+
+processflow> task onde /bin/pwd
+token: task
+token: onde
+token: /bin/pwd
+nome: onde
+programa: /bin/pwd
+quantidades de argumentos: 0
+processflow> run onde
+token: run
+token: onde
+tarefa na posicao 0
+nome: onde
+programa: /bin/pwd
+quantidades de argumentos: 0
+Processo Pai PID = 2051 Processo pai espera pelo Filho PID = 2055
+Processo Filho PID = 2055 Pai possui PID = 2051
+/tmp
+processflow> exigt  t
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd[K[K[Kdate
+[?2004lSun Aug 23 22:20:58 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:622:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
+  622 |             [01;31m[KPosicaoEncontrada[m[K = -1;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:622:13:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kmain.c:625:45:[m[K [01;31m[Kerror: [m[K‘[01m[KComandoAtual[m[K’ undeclared (first use in this function)
+  625 |                 if (strcmp(tarefas[i].nome, [01;31m[KComandoAtual[m[K.nome) == 0){
+      |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[Kmain.c:642:37:[m[K [01;31m[Kerror: [m[Klvalue required as increment operand
+  642 |                     quantidadeDeJobs[01;31m[K++[m[K;
+      |                                     [01;31m[K^~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task esperar /bin/sleep 10[ Script started on 2026-08-23 22:20:51-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="92" LINES="9"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd[K[K[Kdate
+[?2004lSun Aug 23 22:20:58 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:622:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicaoEncontrada[m[K’ undeclared (first use in this function)
+  622 |             [01;31m[KPosicaoEncontrada[m[K = -1;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:622:13:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kmain.c:625:45:[m[K [01;31m[Kerror: [m[K‘[01m[KComandoAtual[m[K’ undeclared (first use in this function)
+  625 |                 if (strcmp(tarefas[i].nome, [01;31m[KComandoAtual[m[K.nome) == 0){
+      |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[Kmain.c:642:37:[m[K [01;31m[Kerror: [m[Klvalue required as increment operand
+  642 |                     quantidadeDeJobs[01;31m[K++[m[K;
+      |                                     [01;31m[K^~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task esperar /bin/sleep 10[ 
+token: task
+token: esperar
+token: /bin/sleep
+token: 10
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 10
+processflow> start esperar
+token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2112 Processo pai nao espera pelo Filho PID = 2113
+Processo Filho PID = 2113 Pai possui PID = 2112
+processflow> task listar /bin/ps
+token: task
+token: listar
+token: /bin/ps
+nome: listar
+programa: /bin/ps
+quantidades de argumentos: 0
+processflow> run listar
+token: run
+token: listar
+tarefa na posicao 1
+nome: listar
+programa: /bin/ps
+quantidades de argumentos: 0
+Processo Pai PID = 2112 Processo pai espera pelo Filho PID = 2114
+Processo Filho PID = 2114 Pai possui PID = 2112
+processflow>     PID TTY          TIME CMD
+   2082 pts/5    00:00:00 bash
+   2112 pts/5    00:00:00 processflow
+   2114 pts/5    00:00:00 ps
+exit    task esperar2 /bin/sleep 30
+token: task
+token: esperar2
+token: /bin/sleep
+token: 30
+nome: esperar2
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> start esperar2
+token: start
+token: esperar2
+nome: esperar2
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2115 Pai possui PID = 2112
+Processo Pai PID = 2112 Processo pai nao espera pelo Filho PID = 2115
+processflow> task listar2 /bin/ps[ 
+token: task
+token: listar2
+token: /bin/ps
+nome: listar2
+programa: /bin/ps
+quantidades de argumentos: 0
+processflow> run listar2
+token: run
+token: listar2
+tarefa na posicao 3
+nome: listar2
+programa: /bin/ps
+quantidades de argumentos: 0
+Processo Pai PID = 2112 Processo pai espera pelo Filho PID = 2116
+proces[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task esperar /bin/sleep 10[ 
+token: task
+token: esperar
+token: /bin/sleep
+token: 10
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 10
+processflow> start esperar
+token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2112 Processo pai nao espera pelo Filho PID = 2113
+Processo Filho PID = 2113 Pai possui PID = 2112
+processflow> task listar /bin/ps
+token: task
+token: listar
+token: /bin/ps
+nome: listar
+programa: /bin/ps
+quantidades de argumentos: 0
+processflow> run listar
+token: run
+token: listar
+tarefa na posicao 1
+nome: listar
+programa: /bin/ps
+quantidades de argumentos: 0
+Processo Pai PID = 2112 Processo pai espera pelo Filho PID = 2114
+Processo Filho PID = 2114 Pai possui PID = 2112
+processflow>     PID TTY          TIME CMD
+   2082 pts/5    00:00:00 bash
+   2112 pts/5    00:00:00 processflow
+   2114 pts/5    00:00:00 ps
+exit    task esperar2 /bin/sleep 30
+token: task
+token: esperar2
+token: /bin/sleep
+token: 30
+nome: esperar2
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> start esperar2
+token: start
+token: esperar2
+nome: esperar2
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2115 Pai possui PID = 2112
+Processo Pai PID = 2112 Processo pai nao espera pelo Filho PID = 2115
+processflow> task listar2 /bin/ps[ 
+token: task
+token: listar2
+token: /bin/ps
+nome: listar2
+programa: /bin/ps
+quantidades de argumentos: 0
+processflow> run listar2
+token: run
+token: listar2
+tarefa na posicao 3
+nome: listar2
+programa: /bin/ps
+quantidades de argumentos: 0
+Processo Pai PID = 2112 Processo pai espera pelo Filho PID = 2116
+processflow> Processo Filho PID = 2116 Pai possui PID = 2112
+    PID TTY          TIME CMD
+   2082 pts/5    00:00:00 bash
+   2112 pts/5    00:00:00 processflow
+   2115 pts/5    00:00:00 sleep
+   2116 pts/5    00:00:00 ps
+exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 22:45:11 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
+[7m./processflow[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+./processflow
+[?2004lprocessflow> task esperar /bin/sleep 30
+start esperar
+jobstoken: task
+token: esperar
+token: /bin/sleep
+token: 30
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2135 Processo pai nao espera pelo Filho PID = 2136
+processflow> Processo Filho PID = 2136 Pai possui PID = 2135
+
+token: jobs
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+2136
+processflow> script -a evidencias.log
+token: script
+token: -a
+token: evidencias.log
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> pwd
+token: pwd
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> whoami
+token: whoami
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> date
+token: date
+no
+token: task
+token: esperar
+token: /bin/sleep
+token: 10
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 10
+processflow> start esperar
+token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2112 Processo pai nao espera pelo Filho PID = 2113
+Processo Filho PID = 2113 Pai possui PID = 2112
+processflow> task listar /bin/ps
+token: task
+token: listar
+token: /bin/ps
+nome: listar
+programa: /bin/ps
+quantidades de argumentos: 0
+processflow> run listar
+token: run
+token: listar
+tarefa na posicao 1
+nome: listar
+programa: /bin/ps
+quantidades de argumentos: 0
+Processo Pai PID = 2112 Processo pai espera pelo Filho PID = 2114
+Processo Filho PID = 2114 Pai possui PID = 2112
+processflow>     PID TTY          TIME CMD
+   2082 pts/5    00:00:00 bash
+   2112 pts/5    00:00:00 processflow
+   2114 pts/5    00:00:00 ps
+exit    task esperar2 /bin/sleep 30
+token: task
+token: esperar2
+token: /bin/sleep
+token: 30
+nome: esperar2
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> start esperar2
+token: start
+token: esperar2
+nome: esperar2
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2115 Pai possui PID = 2112
+Processo Pai PID = 2112 Processo pai nao espera pelo Filho PID = 2115
+processflow> task listar2 /bin/ps[ 
+token: task
+token: listar2
+token: /bin/ps
+nome: listar2
+programa: /bin/ps
+quantidades de argumentos: 0
+processflow> run listar2
+token: run
+token: listar2
+tarefa na posicao 3
+nome: listar2
+programa: /bin/ps
+quantidades de argumentos: 0
+Processo Pai PID = 2112 Processo pai espera pelo Filho PID = 2116
+processflow> Processo Filho PID = 2116 Pai possui PID = 2112
+    PID TTY          TIME CMD
+   2082 pts/5    00:00:00 bash
+   2112 pts/5    00:00:00 processflow
+   2115 pts/5    00:00:00 sleep
+   2116 pts/5    00:00:00 ps
+exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 22:45:11 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
+[7m./processflow[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+./processflow
+[?2004lprocessflow> task esperar /bin/sleep 30
+start esperar
+jobstoken: task
+token: esperar
+token: /bin/sleep
+token: 30
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2135 Processo pai nao espera pelo Filho PID = 2136
+processflow> Processo Filho PID = 2136 Pai possui PID = 2135
+
+token: jobs
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+2136
+processflow> script -a evidencias.log
+token: script
+token: -a
+token: evidencias.log
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> pwd
+token: pwd
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> whoami
+token: whoami
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> date
+token: date
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> script -a evidencias.log
+token: script
+token: -a
+token: evidencias.log
+nome: -a
+programa: /bin/sleepsflow> Processo Filho PID = 2116 Pai possui PID = 2112
+    PID TTY          TIME CMD
+   2082 pts/5    00:00:00 bash
+   2112 pts/5    00:00:00 processflow
+   2115 pts/5    00:00:00 sleep
+   2116 pts/5    00:00:00 ps
+exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 22:45:11 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
+[7m./processflow[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+./processflow
+[?2004lprocessflow> task esperar /bin/sleep 30
+start esperar
+jobstoken: task
+token: esperar
+token: /bin/sleep
+token: 30
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2135 Processo pai nao espera pelo Filho PID = 2136
+processflow> Processo Filho PID = 2136 Pai possui PID = 2135
+
+token: jobs
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+2136
+processflow> script -a evidencias.log
+token: script
+token: -a
+token: evidencias.log
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> pwd
+token: pwd
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> whoami
+token: whoami
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> date
+token: date
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> script -a evidencias.log
+token: script
+token: -a
+token: evidencias.log
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> w exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task esperar /bin/sleep 20
+start esperar
+jobstoken: task
+token: esperar
+token: /bin/sleep
+token: 20
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 20
+processflow> token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2156 Pai possui PID = 2155
+Processo Pai PID = 2155 Processo pai nao espera pelo Filho PID = 2156
+processflow> 
+token: jobs
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+2156
+processflow> wait 2156
+token: wait
+token: 2156
+nome: 2156
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./proScript started on 2026-08-23 22:45:05-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="92" LINES="9"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 22:45:11 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27m
+[7m./processflow[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# gcc main.c -o processflow
+./processflow
+[?2004lprocessflow> task esperar /bin/sleep 30
+start esperar
+jobstoken: task
+token: esperar
+token: /bin/sleep
+token: 30
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2135 Processo pai nao espera pelo Filho PID = 2136
+processflow> Processo Filho PID = 2136 Pai possui PID = 2135
+
+token: jobs
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+2136
+processflow> script -a evidencias.log
+token: script
+token: -a
+token: evidencias.log
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> pwd
+token: pwd
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> whoami
+token: whoami
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> date
+token: date
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> script -a evidencias.log
+token: script
+token: -a
+token: evidencias.log
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> w exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task esperar /bin/sleep 20
+start esperar
+jobstoken: task
+token: esperar
+token: /bin/sleep
+token: 20
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 20
+processflow> token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2156 Pai possui PID = 2155
+Processo Pai PID = 2155 Processo pai nao espera pelo Filho PID = 2156
+processflow> 
+token: jobs
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+2156
+processflow> wait 2156
+token: wait
+token: 2156
+nome: 2156
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task demorado /bin/sleep 30
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 30
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2157 Processo pame: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> script -a evidencias.log
+token: script
+token: -a
+token: evidencias.log
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> w exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task esperar /bin/sleep 20
+start esperar
+jobstoken: task
+token: esperar
+token: /bin/sleep
+token: 20
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 20
+processflow> token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2156 Pai possui PID = 2155
+Processo Pai PID = 2155 Processo pai nao espera pelo Filho PID = 2156
+processflow> 
+token: jobs
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+2156
+processflow> wait 2156
+token: wait
+token: 2156
+nome: 2156
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task demorado /bin/sleep 30
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 30
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2158
+processflow> Processo Filho PID = 2158 Pai possui PID = 2157
+   ko   wai   jobs
+token: jobs
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+2158
+processflow> wait 2158
+token: wait
+token: 2158
+nome: 2158
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> task demorado /bin/sleep 60
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 60
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2160 Pai possui PID = 2157
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2160
+processflow>     
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> task demorado /bin/sleep 60
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 60
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2161
+Processo Filho PID = 2161 Pai possui PID = 2157
+processflow> 
+token: jobs
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+2158
+2160
+2161
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./po[Krocessflow
+[?2004lprocessflow> task demorado2 /bin/sleep 60
+token: task
+token: demorado2
+token: /bin/sleep
+token: 60
+nome: demorado2
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> start tos: 0
+processflow> script -a evidencias.log
+token: script
+token: -a
+token: evidencias.log
+nome: -a
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> w exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task esperar /bin/sleep 20
+start esperar
+jobstoken: task
+token: esperar
+token: /bin/sleep
+token: 20
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 20
+processflow> token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2156 Pai possui PID = 2155
+Processo Pai PID = 2155 Processo pai nao espera pelo Filho PID = 2156
+processflow> 
+token: jobs
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+2156
+processflow> wait 2156
+token: wait
+token: 2156
+nome: 2156
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task demorado /bin/sleep 30
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 30
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2158
+processflow> Processo Filho PID = 2158 Pai possui PID = 2157
+   ko   wai   jobs
+token: jobs
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+2158
+processflow> wait 2158
+token: wait
+token: 2158
+nome: 2158
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> task demorado /bin/sleep 60
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 60
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2160 Pai possui PID = 2157
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2160
+processflow>     
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> task demorado /bin/sleep 60
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 60
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2161
+Processo Filho PID = 2161 Pai possui PID = 2157
+processflow> 
+token: jobs
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+2158
+2160
+2161
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./po[Krocessflow
+[?2004lprocessflow> task demorado2 /bin/sleep 60
+token: task
+token: demorado2
+token: /bin/sleep
+token: 60
+nome: demorado2
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> start demorado2
+token: start
+token: demorado2
+nome: dem
+quantidades de argumentos: 0
+processflow> w exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task esperar /bin/sleep 20
+start esperar
+jobstoken: task
+token: esperar
+token: /bin/sleep
+token: 20
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 20
+processflow> token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2156 Pai possui PID = 2155
+Processo Pai PID = 2155 Processo pai nao espera pelo Filho PID = 2156
+processflow> 
+token: jobs
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+2156
+processflow> wait 2156
+token: wait
+token: 2156
+nome: 2156
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task demorado /bin/sleep 30
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 30
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2158
+processflow> Processo Filho PID = 2158 Pai possui PID = 2157
+   ko   wai   jobs
+token: jobs
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+2158
+processflow> wait 2158
+token: wait
+token: 2158
+nome: 2158
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> task demorado /bin/sleep 60
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 60
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2160 Pai possui PID = 2157
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2160
+processflow>     
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> task demorado /bin/sleep 60
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 60
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2161
+Processo Filho PID = 2161 Pai possui PID = 2157
+processflow> 
+token: jobs
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+2158
+2160
+2161
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./po[Krocessflow
+[?2004lprocessflow> task demorado2 /bin/sleep 60
+token: task
+token: demorado2
+token: /bin/sleep
+token: 60
+nome: demorado2
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> start demorado2
+token: start
+token: demorado2
+nome: demorado2
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2162 Processo pai nao espera pelo Filho PID = 21Script started on 2026-08-23 23:00:40-03:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="92" LINES="9"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lSun Aug 23 23:00:43 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mgcc main.c -o processflow[27mgcc main.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task esperar /bin/sleep 20
+start esperar
+jobstoken: task
+token: esperar
+token: /bin/sleep
+token: 20
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 20
+processflow> token: start
+token: esperar
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2156 Pai possui PID = 2155
+Processo Pai PID = 2155 Processo pai nao espera pelo Filho PID = 2156
+processflow> 
+token: jobs
+nome: esperar
+programa: /bin/sleep
+quantidades de argumentos: 0
+2156
+processflow> wait 2156
+token: wait
+token: 2156
+nome: 2156
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processflow
+[?2004lprocessflow> task demorado /bin/sleep 30
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 30
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2158
+processflow> Processo Filho PID = 2158 Pai possui PID = 2157
+   ko   wai   jobs
+token: jobs
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+2158
+processflow> wait 2158
+token: wait
+token: 2158
+nome: 2158
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> task demorado /bin/sleep 60
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 60
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2160 Pai possui PID = 2157
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2160
+processflow>     
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> task demorado /bin/sleep 60
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 60
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2161
+Processo Filho PID = 2161 Pai possui PID = 2157
+processflow> 
+token: jobs
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+2158
+2160
+2161
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./po[Krocessflow
+[?2004lprocessflow> task demorado2 /bin/sleep 60
+token: task
+token: demorado2
+token: /bin/sleep
+token: 60
+nome: demorado2
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> start demorado2
+token: start
+token: demorado2
+nome: demorado2
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2162 Processo pai nao espera pelo Filho PID = 2163
+processflow> Processo Filho PID = 2163 Pai possui PID = 2162
+wait 2163
+token: wait
+token: 2163
+nome: 2163
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@Pcessflow
+[?2004lprocessflow> task demorado /bin/sleep 30
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 30
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 30
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2158
+processflow> Processo Filho PID = 2158 Pai possui PID = 2157
+   ko   wai   jobs
+token: jobs
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+2158
+processflow> wait 2158
+token: wait
+token: 2158
+nome: 2158
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> task demorado /bin/sleep 60
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 60
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2160 Pai possui PID = 2157
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2160
+processflow>     
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> task demorado /bin/sleep 60
+start demorado
+jobstoken: task
+token: demorado
+token: /bin/sleep
+token: 60
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> token: start
+token: demorado
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2157 Processo pai nao espera pelo Filho PID = 2161
+Processo Filho PID = 2161 Pai possui PID = 2157
+processflow> 
+token: jobs
+nome: demorado
+programa: /bin/sleep
+quantidades de argumentos: 0
+2158
+2160
+2161
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./po[Krocessflow
+[?2004lprocessflow> task demorado2 /bin/sleep 60
+token: task
+token: demorado2
+token: /bin/sleep
+token: 60
+nome: demorado2
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 60
+processflow> start demorado2
+token: start
+token: demorado2
+nome: demorado2
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2162 Processo pai nao espera pelo Filho PID = 2163
+processflow> Processo Filho PID = 2163 Pai possui PID = 2162
+wait 2163
+token: wait
+token: 2163
+nome: 2163
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pro[K[K[Ki[Kgcc p[Kmain.c -o processflow
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# ./processfo[Klow
+[?2004lprocessflow> task testeWait /bin/sleep 20
+start testeWaittoken: task
+token: testeWait
+token: /bin/sleep
+token: 20
+nome: testeWait
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 20
+processflow> 
+token: start
+token: testeWait
+nome: testeWait
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Filho PID = 2176 Pai possui PID = 2175
+Processo Pai PID = 2175 Processo pai nao espera pelo Filho PID = 2176
+processflow> wait 2176
+token: wait
+token: 2176
+nome: 2176
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> ./processflow
+token: ./processflow
+nome: 2176
+programa: /bin/sleep
+quantidades de argumentos: 0
+processflow> task validar /bin/sleep 5
+start validartoken: task
+token: validar
+token: /bin/sleep
+token: 5
+nome: validar
+programa: /bin/sleep
+quantidades de argumentos: 1
+argumento(s)[0]: 5
+processflow> 
+token: start
+token: validar
+nome: validar
+programa: /bin/sleep
+quantidades de argumentos: 0
+Processo Pai PID = 2175 Processo pai nao espera pelo Filho PID = 2177
+processflow> Processo Filho PID = 2177 Pai possui PID = 2175
+waut  ut  it 2177
+token: wait
+token: 2177
+nome: 2177
+programa: /bin/sleep
+quantidades de argumentos: 0
+p
