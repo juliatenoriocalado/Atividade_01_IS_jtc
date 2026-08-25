@@ -5226,3 +5226,101 @@ processflow> exit
 [?2004lexit
 
 Script done on 2026-08-24 20:39:26-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-24 21:44:36-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="200" LINES="3"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# pwd
+[?2004l/mnt/c/Users/julia/Atividade_01_IS
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# date
+[?2004lMon Aug 24 21:44:42 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mmake clean[27m
+[7mmake[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# make clean
+make
+[?2004lrm -f processflow
+gcc -Wall -Wextra main.c -o processflow
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mrm -f saida.txt[27m
+[7m./processflow[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# rm -f saida.txt
+./processflow
+[?2004lprocessflow> task escrever /bin/echo linha-um
+token: task
+token: escrever
+token: /bin/echo
+token: linha-um
+nome: escrever
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: linha-um
+processflow> output escrever saida.txt
+token: output
+token: escrever
+token: saida.txt
+nome: escrever
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> run escrever
+token: run
+token: escrever
+tarefa na posicao 0
+nome: escrever
+programa: /bin/echo
+quantidades de argumentos: 0
+Processo Pai PID = 2015 Processo pai espera pelo Filho PID = 2016
+Processo Filho PID = 2016 Pai possui PID = 2015
+task adicionar /bin/echo linha-doisprocessflow> 
+token: task
+token: adicionar
+token: /bin/echo
+token: linha-dois
+nome: adicionar
+programa: /bin/echo
+quantidades de argumentos: 1
+argumento(s)[0]: linha-dois
+processflow> append adicionar saida.txt
+token: append
+token: adicionar
+token: saida.txt
+nome: adicionar
+programa: /bin/echo
+quantidades de argumentos: 0
+processflow> run adicionar
+token: run
+token: adicionar
+tarefa na posicao 1
+nome: adicionar
+programa: /bin/echo
+quantidades de argumentos: 0
+Processo Pai PID = 2015 Processo pai espera pelo Filho PID = 2017
+Processo Filho PID = 2017 Pai possui PID = 2015
+task mostrar /bin/cat
+processflow> token: task
+token: mostrar
+token: /bin/cat
+nome: mostrar
+programa: /bin/cat
+quantidades de argumentos: 0
+processflow> input mostrar saida.txt
+token: input
+token: mostrar
+token: saida.txt
+nome: mostrar
+programa: /bin/cat
+quantidades de argumentos: 0
+processflow> run mostrar
+token: run
+token: mostrar
+tarefa na posicao 2
+nome: mostrar
+programa: /bin/cat
+quantidades de argumentos: 0
+Processo Filho PID = 2018 Pai possui PID = 2015
+Processo Pai PID = 2015 Processo pai espera pelo Filho PID = 2018
+eixt    linha-um
+linha-dois
+processflow> exit
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# [7mcat saida.txt[27mcat saida.txt
+[?2004llinha-um
+linha-dois
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_01_ISroot@PCdeJlia:/mnt/c/Users/julia/Atividade_01_IS# exit
+[?2004lexit
+
+Script done on 2026-08-24 21:48:27-03:00 [COMMAND_EXIT_CODE="0"]

@@ -12,6 +12,12 @@ typedef struct Comando {
     char programa[30];
     char argumentos[10][30];
     int quantidadeDeArgumentos;
+    int temInput;
+    char arquivoInput[30];
+    int temOutput;
+    char arquivoOutput[30];
+    int temAppend;
+    char arquivoAppend[30];
 } Comando;
 
 int main(int argc, char *argv[]){
@@ -107,6 +113,9 @@ int main(int argc, char *argv[]){
 
             Comando ComandoAtual;
             ComandoAtual.quantidadeDeArgumentos = 0;
+            ComandoAtual.temInput = 0;
+            ComandoAtual.temOutput = 0;
+            ComandoAtual.temAppend = 0;            
             char *ponteiroEntradaSerQuebrada;
             ponteiroEntradaSerQuebrada = strtok(linhaDeComandoEscrita, " "); //aspa dupla pq lê string
             
@@ -339,6 +348,47 @@ int main(int argc, char *argv[]){
                     printf("Processo Filho PID = %d Pai possui PID = %d\n", getpid(), getppid()); //getppid conseguir PID do processo pai
                     sleep(5); //filho dormindo
 
+                    if (tarefas[PosicaoEncontrada].temInput == 1){
+
+                        int ArquivoSimOuNao = open(tarefas[PosicaoEncontrada].arquivoInput, O_RDONLY);
+
+                        if (ArquivoSimOuNao == -1){
+                            perror("erro ao abrir arquivo");
+                            exit(1);
+                        }
+
+                        dup2(ArquivoSimOuNao, STDIN_FILENO);
+                        close(ArquivoSimOuNao);
+                    }
+
+                    if (tarefas[PosicaoEncontrada].temOutput == 1){
+
+                        int ArquivoSimOuNao = open(tarefas[PosicaoEncontrada].arquivoOutput,
+                                                O_WRONLY | O_CREAT | O_TRUNC, 0644);
+
+                        if (ArquivoSimOuNao == -1){
+                            perror("erro ao abrir arquivo");
+                            exit(1);
+                        }
+
+                        dup2(ArquivoSimOuNao, STDOUT_FILENO);
+                        close(ArquivoSimOuNao);
+                    }
+
+                    if (tarefas[PosicaoEncontrada].temAppend == 1){
+
+                        int ArquivoSimOuNao = open(tarefas[PosicaoEncontrada].arquivoAppend,
+                                                O_WRONLY | O_CREAT | O_APPEND, 0644);
+
+                        if (ArquivoSimOuNao == -1){
+                            perror("erro ao abrir arquivo");
+                            exit(1);
+                        }
+
+                        dup2(ArquivoSimOuNao, STDOUT_FILENO);
+                        close(ArquivoSimOuNao);
+                    }
+
                     //com um l: argumentos separados com virgula (passa diretamente), com v: vetor de strings (se cria, voce gera), p: permite procurar o executável nos diretórios configurados na variável PATH
                     char *args[12];
                     args[0] = tarefas[PosicaoEncontrada].programa;
@@ -442,112 +492,30 @@ int main(int argc, char *argv[]){
                 if (strcmp(tarefas[j].nome, ComandoAtual.nome) == 0){
                     PosicaoEncontrada = j;
                 }
-
+            }
+            
             if (PosicaoEncontrada != -1){
-
-                pid_t pid = fork();
-                if (pid < 0){
-                    perror("Fork falhou.");
-                    exit(1); //Encerrar processo atual
-                }
-
-                if (pid > 0){
-                    //Estamos no processo pai
-                    printf("Processo Pai PID = %d Processo pai espera pelo Filho PID = %d\n", getpid(), pid);
-                    wait(NULL);
-                    printf("Processo pai encerrou.\n");
-                }
-
-            else { //Senão estou no processo filho
-
-                int ArquivoSimOuNao = open(nomeDoArquivo, O_RDONLY); //Esse RDONLY serve somente p ler
-
-                if (ArquivoSimOuNao == -1){
-                    perror("erro ao abrir arquivo");
-                    exit(1);
-                }
-
-                dup2(ArquivoSimOuNao, STDIN_FILENO); //STDIN constante do sistema que representa entrada padrão
-                close(ArquivoSimOuNao);
-
-                printf("Processo Filho PID = %d Pai possui PID = %d\n", getpid(), getppid()); //getppid conseguir PID do processo pai
-                sleep(5); //filho dormindo
-
-                //com um l: argumentos separados com virgula (passa diretamente), com v: vetor de strings (se cria, voce gera), p: permite procurar o executável nos diretórios configurados na variável PATH
-                char *args[12];
-                args[0] = tarefas[PosicaoEncontrada].programa;
-
-                for (int i=0; i < tarefas[PosicaoEncontrada].quantidadeDeArgumentos; i++){
-                    args[i + 1] = tarefas[PosicaoEncontrada].argumentos[i];                                   
-                }
-
-                args[tarefas[PosicaoEncontrada].quantidadeDeArgumentos + 1] = NULL;
-                execvp(args[0], args); //execvp diz : execute ./TestandoExec usando esse vetor de argumentos
-
-                perror("o exec falhou.");
-                exit(1); //encerra o processo filho     
-
-                   }
-                }
-            }   
+                tarefas[PosicaoEncontrada].temInput = 1;
+                strcpy(tarefas[PosicaoEncontrada].arquivoInput, nomeDoArquivo);
+            }
         }
 
         if (ModoOutput){
 
             int PosicaoEncontrada = -1;
+
             for (int j=0; j<quantidadeDeTarefas; j++){
                 if (strcmp(tarefas[j].nome, ComandoAtual.nome) == 0){
                     PosicaoEncontrada = j;
                 }
-            }    
+            }
 
             if (PosicaoEncontrada != -1){
-
-                pid_t pid = fork();
-                if (pid < 0){
-                    perror("Fork falhou.");
-                    exit(1); //Encerrar processo atual
-                }
-
-                if (pid > 0){
-                    //Estamos no processo pai
-                    printf("Processo Pai PID = %d Processo pai espera pelo Filho PID = %d\n", getpid(), pid);
-                    wait(NULL);
-                    printf("Processo pai encerrou.\n");
-                }
-
-            else { //Senão estou no processo filho
-
-                int ArquivoSimOuNao = open(nomeDoArquivo, O_WRONLY | O_CREAT | O_TRUNC, 0644); 
-                //0644 é um número que representa as permissoes para um grupo, tipo nesse caso é um terceiro argumento pra dizer: 6 = 4 + 2 (leitura e escrita) 4 = leitura 4 = leitura, o zero diz que o numero está sendo escrito em octal (nao sei o que é só aceitei)
-                //Abrir pra escrever, apenas ; se nao existir arquivo cria ; apaga o conteudo que tinha 
-
-                if (ArquivoSimOuNao == -1){
-                    perror("erro ao abrir arquivo");
-                    exit(1);
-                }
-
-                dup2(ArquivoSimOuNao, STDOUT_FILENO); //STDOUT constante do sistema que representa saída padrão
-                close(ArquivoSimOuNao);
-                sleep(5); //filho dormindo
-
-                //com um l: argumentos separados com virgula (passa diretamente), com v: vetor de strings (se cria, voce gera), p: permite procurar o executável nos diretórios configurados na variável PATH
-                char *args[12];
-                args[0] = tarefas[PosicaoEncontrada].programa;
-
-                for (int i=0; i < tarefas[PosicaoEncontrada].quantidadeDeArgumentos; i++){
-                    args[i + 1] = tarefas[PosicaoEncontrada].argumentos[i];                                   
-                }
-
-                args[tarefas[PosicaoEncontrada].quantidadeDeArgumentos + 1] = NULL;
-                execvp(args[0], args); //execvp diz : execute ./TestandoExec usando esse vetor de argumentos
-
-                perror("o exec falhou.");
-                exit(1); //encerra o processo filho     
-
-                   }
-                }
-            }   
+                tarefas[PosicaoEncontrada].temOutput = 1;
+                tarefas[PosicaoEncontrada].temAppend = 0;
+                strcpy(tarefas[PosicaoEncontrada].arquivoOutput, nomeDoArquivo);
+            }
+        }    
        
         if (ModoAppend){
 
@@ -557,54 +525,13 @@ int main(int argc, char *argv[]){
                     PosicaoEncontrada = j;
                 }
             }    
-
+          
             if (PosicaoEncontrada != -1){
-
-                pid_t pid = fork();
-                if (pid < 0){
-                    perror("Fork falhou.");
-                    exit(1); //Encerrar processo atual
-                }
-
-                if (pid > 0){
-                    //Estamos no processo pai
-                    printf("Processo Pai PID = %d Processo pai espera pelo Filho PID = %d\n", getpid(), pid);
-                    wait(NULL);
-                    printf("Processo pai encerrou.\n");
-                }
-
-            else { //Senão estou no processo filho
-
-                int ArquivoSimOuNao = open(nomeDoArquivo, O_WRONLY | O_CREAT | O_APPEND, 0644); 
-                //0644 é um número que representa as permissoes para um grupo, tipo nesse caso é um terceiro argumento pra dizer: 6 = 4 + 2 (leitura e escrita) 4 = leitura 4 = leitura, o zero diz que o numero está sendo escrito em octal (nao sei o que é só aceitei)
-                //Abrir pra escrever, apenas ; se nao existir arquivo cria ; acrescenta no final sem apagar o que tinha antes
-
-                if (ArquivoSimOuNao == -1){
-                    perror("erro ao abrir arquivo");
-                    exit(1);
-                }
-
-                dup2(ArquivoSimOuNao, STDOUT_FILENO); //STDOUT constante do sistema que representa saída padrão
-                close(ArquivoSimOuNao);
-                sleep(5); //filho dormindo
-
-                //com um l: argumentos separados com virgula (passa diretamente), com v: vetor de strings (se cria, voce gera), p: permite procurar o executável nos diretórios configurados na variável PATH
-                char *args[12];
-                args[0] = tarefas[PosicaoEncontrada].programa;
-
-                for (int i=0; i < tarefas[PosicaoEncontrada].quantidadeDeArgumentos; i++){
-                    args[i + 1] = tarefas[PosicaoEncontrada].argumentos[i];                                   
-                }
-
-                args[tarefas[PosicaoEncontrada].quantidadeDeArgumentos + 1] = NULL;
-                execvp(args[0], args); //execvp diz : execute ./TestandoExec usando esse vetor de argumentos
-
-                perror("o exec falhou.");
-                exit(1); //encerra o processo filho     
-
-                   }
-                }
-            }   
+                tarefas[PosicaoEncontrada].temAppend = 1;
+                tarefas[PosicaoEncontrada].temOutput = 0;
+                strcpy(tarefas[PosicaoEncontrada].arquivoAppend, nomeDoArquivo);
+            }
+        }            
      
         if (modoStart){     
 
